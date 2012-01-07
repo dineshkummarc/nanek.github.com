@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tools | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/tools/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/tools/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Full Text Search with Dropbox]]></title>
-    <link href="http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox/"/>
+    <link href="http://techopener.com/blog/2011/04/full-text-search-with-dropbox/"/>
     <updated>2011-04-25T18:58:20-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox</id>
+    <id>http://techopener.com/blog/2011/04/full-text-search-with-dropbox</id>
     <content type="html"><![CDATA[<p><a href="http://db.tt/BKfYgZE">Dropbox</a> + <a href="http://lucene.apache.org/solr/">Solr</a> =
 full text indexing and search for files in your Dropbox. I wrote an app in
 <a href="http://www.sinatrarb.com/">Sinatra</a> that authenticates to Dropbox, downloads
@@ -34,9 +34,9 @@ service instead of as a download and install, let me know.</p>
   
   <entry>
     <title type="html"><![CDATA[Analyzing data from DonorsChoose.org]]></title>
-    <link href="http://nanek.github.com/blog/2011/04/analyzing-data-from-donorschoose-org/"/>
+    <link href="http://techopener.com/blog/2011/04/analyzing-data-from-donorschoose-org/"/>
     <updated>2011-04-14T12:28:38-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/04/analyzing-data-from-donorschoose-org</id>
+    <id>http://techopener.com/blog/2011/04/analyzing-data-from-donorschoose-org</id>
     <content type="html"><![CDATA[<p>DonorsChoose.org is running a <a href="http://www.donorschoose.org/hacking-%0Aeducation">contest</a> by opening up its data for analysis and use in innovative
 applications.  They have provided data dumps for project, search, donation and
 gift card data in large csv files.  There are a two free tools that I
@@ -67,9 +67,9 @@ lucky contest winner will get to meet Steven Colbert!</p>
   
   <entry>
     <title type="html"><![CDATA[Online password security]]></title>
-    <link href="http://nanek.github.com/blog/2011/03/online-password-security/"/>
+    <link href="http://techopener.com/blog/2011/03/online-password-security/"/>
     <updated>2011-03-03T16:22:42-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/03/online-password-security</id>
+    <id>http://techopener.com/blog/2011/03/online-password-security</id>
     <content type="html"><![CDATA[<p>I often find myself forgetting my passwords and usernames to various sites.
 So recently, I decided to get serious about password management.  I use
 <a href="http://www.keepassx.org/">KeyPassX</a> (or KeyPass if you are using windows) as
@@ -94,9 +94,9 @@ private dropbox folder that you can reach from everywhere.</p>
   
   <entry>
     <title type="html"><![CDATA[Network Monitoring with Zenoss]]></title>
-    <link href="http://nanek.github.com/blog/2009/09/network-monitoring-with-zenoss/"/>
+    <link href="http://techopener.com/blog/2009/09/network-monitoring-with-zenoss/"/>
     <updated>2009-09-10T08:00:16-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/09/network-monitoring-with-zenoss</id>
+    <id>http://techopener.com/blog/2009/09/network-monitoring-with-zenoss</id>
     <content type="html"><![CDATA[<p>Recently I configured <a href="http://www.zenoss.com/">Zenoss</a> for a client to allow
 them to be more proactive and receive email notifications when a service or
 server goes down on their network.  When you are frequently upgrading or
@@ -135,9 +135,9 @@ Also take a look at a ramp up video put together by JumpBox for Zenoss at
   
   <entry>
     <title type="html"><![CDATA[Remote Desktop Manager]]></title>
-    <link href="http://nanek.github.com/blog/2009/08/remote-desktop-manager/"/>
+    <link href="http://techopener.com/blog/2009/08/remote-desktop-manager/"/>
     <updated>2009-08-10T20:56:16-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/08/remote-desktop-manager</id>
+    <id>http://techopener.com/blog/2009/08/remote-desktop-manager</id>
     <content type="html"><![CDATA[<p>If you find yourself managing a number of Windows servers take a look at
 <a href="http://www.code4ward.net/main/RoyalTS/Download.aspx">Royal TS 1.5.1</a>.</p>
 

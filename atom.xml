@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tech Opener]]></title>
-  <link href="http://nanek.github.com/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Now using Octopress]]></title>
-    <link href="http://nanek.github.com/blog/2012/01/now-using-octopress/"/>
+    <link href="http://techopener.com/blog/2012/01/now-using-octopress/"/>
     <updated>2012-01-06T16:18:00-05:00</updated>
-    <id>http://nanek.github.com/blog/2012/01/now-using-octopress</id>
+    <id>http://techopener.com/blog/2012/01/now-using-octopress</id>
     <content type="html"><![CDATA[<p>Nothing like migrating to a new blogging platform to get you in the mood
 to write some new posts. Just switched from Wordpress to
 <a href="http://octopress.org">Octopress</a>.</p>
@@ -50,9 +50,9 @@ into the markdown format. I did run into a <a href="https://github.com/thomasf/e
   
   <entry>
     <title type="html"><![CDATA[Using the Dwolla API with node.js]]></title>
-    <link href="http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js/"/>
+    <link href="http://techopener.com/blog/2011/12/using-the-dwolla-api-with-node-js/"/>
     <updated>2011-12-02T10:55:52-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js</id>
+    <id>http://techopener.com/blog/2011/12/using-the-dwolla-api-with-node-js</id>
     <content type="html"><![CDATA[<p><a href="http://dwolla.com">Dwolla.com</a> is a new payment network. It makes it easy to
 transfer money without the transaction fees charged by credit cards. Each
 transaction over $10 is 25 cents, and those under $10 are free. I think this
@@ -77,9 +77,9 @@ utilize their API.</p>
   
   <entry>
     <title type="html"><![CDATA[Translation API for node.js]]></title>
-    <link href="http://nanek.github.com/blog/2011/11/translation-api-for-node-js/"/>
+    <link href="http://techopener.com/blog/2011/11/translation-api-for-node-js/"/>
     <updated>2011-11-17T14:24:20-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/11/translation-api-for-node-js</id>
+    <id>http://techopener.com/blog/2011/11/translation-api-for-node-js</id>
     <content type="html"><![CDATA[<p>Microsoft provides a Translator API that allows you to translate text from one
 language into another. It provides up to 1000 transactions/month for free.
 Google also provides a translation API, however has recently removed their
@@ -95,9 +95,9 @@ provide the audio of the word being spoken.</p>
   
   <entry>
     <title type="html"><![CDATA[Credit Cards and Security]]></title>
-    <link href="http://nanek.github.com/blog/2011/07/credit-cards-and-security/"/>
+    <link href="http://techopener.com/blog/2011/07/credit-cards-and-security/"/>
     <updated>2011-07-07T08:04:54-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/07/credit-cards-and-security</id>
+    <id>http://techopener.com/blog/2011/07/credit-cards-and-security</id>
     <content type="html"><![CDATA[<p>I recently returned from a wonderful trip to Norway.  One tech thing that
 stood out was that everywhere you go there they have portable card readers
 that read cards with a chip or magnetic stripe.  Looking into it, the &#8220;chip&#8221;
@@ -141,9 +141,9 @@ Seems like the market is poised for a shake-up.</p>
   
   <entry>
     <title type="html"><![CDATA[Book recommendation: Responsive Web Design]]></title>
-    <link href="http://nanek.github.com/blog/2011/07/book-recommendation-responsive-web-design/"/>
+    <link href="http://techopener.com/blog/2011/07/book-recommendation-responsive-web-design/"/>
     <updated>2011-07-06T10:56:30-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/07/book-recommendation-responsive-web-design</id>
+    <id>http://techopener.com/blog/2011/07/book-recommendation-responsive-web-design</id>
     <content type="html"><![CDATA[<p>I just finished <a href="http://www.abookapart.com/products%0A/responsive-web-design">Responsive Web Design</a> by Ethan Marcotte. It is a quick and entertaining
 read. It brings together some CSS techniques you may already know and some you
 probably don&#8217;t to give clear solution to an ever increasing problem of dealing
@@ -154,9 +154,9 @@ project and I highly recommend the book. Let me know if you want to borrow it.</
   
   <entry>
     <title type="html"><![CDATA[How to become a Sole Proprietor in Arlington County]]></title>
-    <link href="http://nanek.github.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county/"/>
+    <link href="http://techopener.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county/"/>
     <updated>2011-07-05T12:33:36-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county</id>
+    <id>http://techopener.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county</id>
     <content type="html"><![CDATA[<p>When starting out on your own, there a number of things you need to do based
 on where you live.  Even with all of the resources on the internet, it can
 still be a little confusing to determine what is needed as it varies based on
@@ -188,16 +188,16 @@ as that.  Let me know if you think im missing something.</li>
   
   <entry>
     <title type="html"><![CDATA[Full Text Search with Dropbox]]></title>
-    <link href="http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox/"/>
+    <link href="http://techopener.com/blog/2011/04/full-text-search-with-dropbox/"/>
     <updated>2011-04-25T18:58:20-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox</id>
+    <id>http://techopener.com/blog/2011/04/full-text-search-with-dropbox</id>
     <content type="html"><![CDATA[<p><a href="http://db.tt/BKfYgZE">Dropbox</a> + <a href="http://lucene.apache.org/solr/">Solr</a> =
 full text indexing and search for files in your Dropbox. I wrote an app in
 <a href="http://www.sinatrarb.com/">Sinatra</a> that authenticates to Dropbox, downloads
 your files, and indexes them in Solr. It also provides a simple interface for
 searching that includes hit highlighting and some basic facet support.</p>
 
-<p><a href="http://nanek.github.com/images/searchdropbox.png"><img src="http://nanek.github.com/images/searchdropbox.png" alt="Search Dropbox" /></a></p>
+<p><a href="http://techopener.com/images/searchdropbox.png"><img src="http://techopener.com/images/searchdropbox.png" alt="Search Dropbox" /></a></p>
 
 <p>I&#8217;ve posted the project on <a href="https://github.com/nanek/searchdropbox">github</a>,
 so feel free to download and try it. For anyone interested in this as a hosted
@@ -207,9 +207,9 @@ service instead of as a download and install, let me know.</p>
   
   <entry>
     <title type="html"><![CDATA[Analyzing data from DonorsChoose.org]]></title>
-    <link href="http://nanek.github.com/blog/2011/04/analyzing-data-from-donorschoose-org/"/>
+    <link href="http://techopener.com/blog/2011/04/analyzing-data-from-donorschoose-org/"/>
     <updated>2011-04-14T12:28:38-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/04/analyzing-data-from-donorschoose-org</id>
+    <id>http://techopener.com/blog/2011/04/analyzing-data-from-donorschoose-org</id>
     <content type="html"><![CDATA[<p>DonorsChoose.org is running a <a href="http://www.donorschoose.org/hacking-%0Aeducation">contest</a> by opening up its data for analysis and use in innovative
 applications.  They have provided data dumps for project, search, donation and
 gift card data in large csv files.  There are a two free tools that I
@@ -240,9 +240,9 @@ lucky contest winner will get to meet Steven Colbert!</p>
   
   <entry>
     <title type="html"><![CDATA[Team Drive on Google App Engine]]></title>
-    <link href="http://nanek.github.com/blog/2011/04/team-drive-on-google-app-engine/"/>
+    <link href="http://techopener.com/blog/2011/04/team-drive-on-google-app-engine/"/>
     <updated>2011-04-11T16:11:46-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/04/team-drive-on-google-app-engine</id>
+    <id>http://techopener.com/blog/2011/04/team-drive-on-google-app-engine</id>
     <content type="html"><![CDATA[<p>Last year, I created <a href="http://funddrive.appspot.com">Team Drive</a> on <a href="http://code.google.com/appengine/">Google App
 Engine</a>.  I wanted to learn about Google
 App Engine (GAE) which is a hosting platform for python/java based
@@ -280,14 +280,14 @@ operations such as sums or counts over large collections.</p>
   
   <entry>
     <title type="html"><![CDATA[No timezones / no daylight savings time]]></title>
-    <link href="http://nanek.github.com/blog/2011/04/no-timezones-no-daylight-savings-time/"/>
+    <link href="http://techopener.com/blog/2011/04/no-timezones-no-daylight-savings-time/"/>
     <updated>2011-04-01T13:49:30-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/04/no-timezones-no-daylight-savings-time</id>
+    <id>http://techopener.com/blog/2011/04/no-timezones-no-daylight-savings-time</id>
     <content type="html"><![CDATA[<p>Timezones and daylight savings time never really made sense to me.  How could
 something as fundamental, precise and constant as time be dependent upon my
 location or a local government?</p>
 
-<p><img src='http://nanek.github.com/images/SwatchBeat1.jpg' width='263px' height='300px' /></p>
+<p><img src='http://techopener.com/images/SwatchBeat1.jpg' width='263px' height='300px' /></p>
 
 <p>Turns out, <a href="http://en.wikipedia.org/wiki/Swatch_Internet_Time">Swatch</a> tried
 to tackle this already.  <a href="http://ebeats.org/">eBeats</a> is trying something
@@ -299,9 +299,9 @@ similar.  Until then, there is always <a href="http://everytimezone.com/">Every
   
   <entry>
     <title type="html"><![CDATA[A location based URL redirector]]></title>
-    <link href="http://nanek.github.com/blog/2011/03/a-location-based-url-redirector/"/>
+    <link href="http://techopener.com/blog/2011/03/a-location-based-url-redirector/"/>
     <updated>2011-03-31T11:33:40-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/03/a-location-based-url-redirector</id>
+    <id>http://techopener.com/blog/2011/03/a-location-based-url-redirector</id>
     <content type="html"><![CDATA[<p>I wanted to create something to enter into <a href="http://quovadevchallenge.com/">Quova Dev
 Challenge</a>, so I created <a href="http://nearbylink.appspot.com">Nearby
 Link</a>.  Basically its a service that creates
@@ -326,9 +326,9 @@ locations around the user where they are at.</p>
   
   <entry>
     <title type="html"><![CDATA[Location history reporting]]></title>
-    <link href="http://nanek.github.com/blog/2011/03/location-history-reporting/"/>
+    <link href="http://techopener.com/blog/2011/03/location-history-reporting/"/>
     <updated>2011-03-07T11:20:54-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/03/location-history-reporting</id>
+    <id>http://techopener.com/blog/2011/03/location-history-reporting</id>
     <content type="html"><![CDATA[<p>There are lots of mobile location sharing products and many new ones everyday.
 Most of them appear to be centered around location check-ins and sharing with
 friends.  While this is neat, it seems like only a small slice of the use
@@ -357,9 +357,9 @@ implement this and I hope to discuss it more over the next few days.</p>
   
   <entry>
     <title type="html"><![CDATA[Online password security]]></title>
-    <link href="http://nanek.github.com/blog/2011/03/online-password-security/"/>
+    <link href="http://techopener.com/blog/2011/03/online-password-security/"/>
     <updated>2011-03-03T16:22:42-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/03/online-password-security</id>
+    <id>http://techopener.com/blog/2011/03/online-password-security</id>
     <content type="html"><![CDATA[<p>I often find myself forgetting my passwords and usernames to various sites.
 So recently, I decided to get serious about password management.  I use
 <a href="http://www.keepassx.org/">KeyPassX</a> (or KeyPass if you are using windows) as
@@ -384,9 +384,9 @@ private dropbox folder that you can reach from everywhere.</p>
   
   <entry>
     <title type="html"><![CDATA[Smartphone with unlimited everything for $25/month]]></title>
-    <link href="http://nanek.github.com/blog/2011/03/smartphone-with-unlimited-everything/"/>
+    <link href="http://techopener.com/blog/2011/03/smartphone-with-unlimited-everything/"/>
     <updated>2011-03-02T10:37:12-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/03/smartphone-with-unlimited-everything</id>
+    <id>http://techopener.com/blog/2011/03/smartphone-with-unlimited-everything</id>
     <content type="html"><![CDATA[<p>Virgin Mobile offers a great $25/month plan for unlimited data, text and web
 with 300 talk minutes with no contract to sign.  This works great for me, as I
 generally just have short phone conversations.  However there are of course
@@ -422,9 +422,9 @@ time.</p>
   
   <entry>
     <title type="html"><![CDATA[Redmine plugin for windows authentication]]></title>
-    <link href="http://nanek.github.com/blog/2010/05/redmine-plugin-for-windows-authentication/"/>
+    <link href="http://techopener.com/blog/2010/05/redmine-plugin-for-windows-authentication/"/>
     <updated>2010-05-02T19:36:16-04:00</updated>
-    <id>http://nanek.github.com/blog/2010/05/redmine-plugin-for-windows-authentication</id>
+    <id>http://techopener.com/blog/2010/05/redmine-plugin-for-windows-authentication</id>
     <content type="html"><![CDATA[<p>Redmine.org is an open source project management application. It is simple to
 setup and works great. It supports LDAP authentication out of the box. We
 recently setup Redmine for a project to run behind IIS using fastcgi and
@@ -438,23 +438,23 @@ functionality.</p>
   
   <entry>
     <title type="html"><![CDATA[iPad apps]]></title>
-    <link href="http://nanek.github.com/blog/2010/04/ipad-apps/"/>
+    <link href="http://techopener.com/blog/2010/04/ipad-apps/"/>
     <updated>2010-04-02T08:35:36-04:00</updated>
-    <id>http://nanek.github.com/blog/2010/04/ipad-apps</id>
+    <id>http://techopener.com/blog/2010/04/ipad-apps</id>
     <content type="html"><![CDATA[<p>Prepared for tomorrow by downloading some iPad applications before the device
 has even been released.  Apple = Hype machine.  iPad will win for the same
 reasons the iPhone did.  For anyone not paying attention, it is the
 applications.</p>
 
-<p><a href="http://nanek.github.com/images/iPadApps.png"><img src="http://nanek.github.com/images/iPadApps.png" alt="iPad Apps" /></a></p>
+<p><a href="http://techopener.com/images/iPadApps.png"><img src="http://techopener.com/images/iPadApps.png" alt="iPad Apps" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[CloudCamp DC 2010]]></title>
-    <link href="http://nanek.github.com/blog/2010/03/cloudcamp-dc-2010/"/>
+    <link href="http://techopener.com/blog/2010/03/cloudcamp-dc-2010/"/>
     <updated>2010-03-25T22:58:21-04:00</updated>
-    <id>http://nanek.github.com/blog/2010/03/cloudcamp-dc-2010</id>
+    <id>http://techopener.com/blog/2010/03/cloudcamp-dc-2010</id>
     <content type="html"><![CDATA[<p>Last Tuesday, I attended <a href="http://www.cloudcamp.org/dc">CloudCamp</a> in DC.  I&#8217;ve
 been meaning to go to an event like this for sometime and I was finally able
 to make it.  In particular my main takeaway from this event was how much
@@ -482,9 +482,9 @@ attending the next CloudCamp and other unconference events.</p>
   
   <entry>
     <title type="html"><![CDATA[Foursquare on Windows Mobile]]></title>
-    <link href="http://nanek.github.com/blog/2009/12/foursquare-on-windows-mobile/"/>
+    <link href="http://techopener.com/blog/2009/12/foursquare-on-windows-mobile/"/>
     <updated>2009-12-22T21:47:50-05:00</updated>
-    <id>http://nanek.github.com/blog/2009/12/foursquare-on-windows-mobile</id>
+    <id>http://techopener.com/blog/2009/12/foursquare-on-windows-mobile</id>
     <content type="html"><![CDATA[<p><a href="http://foursquare.com">Foursquare </a>does not have a windows mobile version of
 their application, so I thought it would be a great opportunity to try and
 build an app.</p>
@@ -519,12 +519,12 @@ application.</li>
   
   <entry>
     <title type="html"><![CDATA[Life Inc. call to action]]></title>
-    <link href="http://nanek.github.com/blog/2009/10/life-inc-call-to-action/"/>
+    <link href="http://techopener.com/blog/2009/10/life-inc-call-to-action/"/>
     <updated>2009-10-20T09:07:21-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/10/life-inc-call-to-action</id>
+    <id>http://techopener.com/blog/2009/10/life-inc-call-to-action</id>
     <content type="html"><![CDATA[<p>I recently completed the book, &#8221;<a href="http://rushkoff.com/books/life-incorporated/life-inc-distributors">Life Inc.</a> How the world became a corporation and how to take it back,&#8221; by <a href="http://rushkoff.com/">Douglas Rushkoff</a>.</p>
 
-<p><img alt='RUSHKOFF_LifeIncCOVER' src='http://nanek.github.com/images/RUSHKOFF_LifeIncCOVER.jpg' width='197px' height='300px' /></p>
+<p><img alt='RUSHKOFF_LifeIncCOVER' src='http://techopener.com/images/RUSHKOFF_LifeIncCOVER.jpg' width='197px' height='300px' /></p>
 
 <p>The book tells the compelling history of how corporations have defined and
 controlled the world since their inception.  It might make you rethink some
@@ -544,9 +544,9 @@ which <a href="http://techopener.com/blog/2009/06/kiva-now-allows-loans-to-peopl
   
   <entry>
     <title type="html"><![CDATA[5 Great Microsoft .NET Developer Blogs]]></title>
-    <link href="http://nanek.github.com/blog/2009/10/5-great-microsoft-net-developer-blogs/"/>
+    <link href="http://techopener.com/blog/2009/10/5-great-microsoft-net-developer-blogs/"/>
     <updated>2009-10-19T08:42:32-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/10/5-great-microsoft-net-developer-blogs</id>
+    <id>http://techopener.com/blog/2009/10/5-great-microsoft-net-developer-blogs</id>
     <content type="html"><![CDATA[<p>Scott Hanselman <a href="http://www.hanselman.com/">http://www.hanselman.com/</a> Dan
 Wahlin <a href="http://weblogs.asp.net/dwahlin/">http://weblogs.asp.net/dwahlin/</a> The
 Morning Brew <a href="http://blog.cwa.me.uk/">http://blog.cwa.me.uk/</a> Jon Galloway

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: startup | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/startup/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/startup/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to become a Sole Proprietor in Arlington County]]></title>
-    <link href="http://nanek.github.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county/"/>
+    <link href="http://techopener.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county/"/>
     <updated>2011-07-05T12:33:36-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county</id>
+    <id>http://techopener.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county</id>
     <content type="html"><![CDATA[<p>When starting out on your own, there a number of things you need to do based
 on where you live.  Even with all of the resources on the internet, it can
 still be a little confusing to determine what is needed as it varies based on

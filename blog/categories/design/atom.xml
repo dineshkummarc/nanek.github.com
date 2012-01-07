@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: design | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/design/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/design/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Book recommendation: Responsive Web Design]]></title>
-    <link href="http://nanek.github.com/blog/2011/07/book-recommendation-responsive-web-design/"/>
+    <link href="http://techopener.com/blog/2011/07/book-recommendation-responsive-web-design/"/>
     <updated>2011-07-06T10:56:30-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/07/book-recommendation-responsive-web-design</id>
+    <id>http://techopener.com/blog/2011/07/book-recommendation-responsive-web-design</id>
     <content type="html"><![CDATA[<p>I just finished <a href="http://www.abookapart.com/products%0A/responsive-web-design">Responsive Web Design</a> by Ethan Marcotte. It is a quick and entertaining
 read. It brings together some CSS techniques you may already know and some you
 probably don't to give clear solution to an ever increasing problem of dealing
@@ -28,14 +28,14 @@ project and I highly recommend the book. Let me know if you want to borrow it.</
   
   <entry>
     <title type="html"><![CDATA[No timezones / no daylight savings time]]></title>
-    <link href="http://nanek.github.com/blog/2011/04/no-timezones-no-daylight-savings-time/"/>
+    <link href="http://techopener.com/blog/2011/04/no-timezones-no-daylight-savings-time/"/>
     <updated>2011-04-01T13:49:30-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/04/no-timezones-no-daylight-savings-time</id>
+    <id>http://techopener.com/blog/2011/04/no-timezones-no-daylight-savings-time</id>
     <content type="html"><![CDATA[<p>Timezones and daylight savings time never really made sense to me.  How could
 something as fundamental, precise and constant as time be dependent upon my
 location or a local government?</p>
 
-<p><img src='http://nanek.github.com/images/SwatchBeat1.jpg' width='263px' height='300px' /></p>
+<p><img src='http://techopener.com/images/SwatchBeat1.jpg' width='263px' height='300px' /></p>
 
 <p>Turns out, <a href="http://en.wikipedia.org/wiki/Swatch_Internet_Time">Swatch</a> tried
 to tackle this already.  <a href="http://ebeats.org/">eBeats</a> is trying something
@@ -47,9 +47,9 @@ similar.  Until then, there is always <a href="http://everytimezone.com/">Every
   
   <entry>
     <title type="html"><![CDATA[Clever Web Design at Refresh DC]]></title>
-    <link href="http://nanek.github.com/blog/2009/09/clever-web-design-at-refresh-dc/"/>
+    <link href="http://techopener.com/blog/2009/09/clever-web-design-at-refresh-dc/"/>
     <updated>2009-09-22T22:45:36-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/09/clever-web-design-at-refresh-dc</id>
+    <id>http://techopener.com/blog/2009/09/clever-web-design-at-refresh-dc</id>
     <content type="html"><![CDATA[<p>Earlier this evening I attended a <a href="http://www.refresh-dc.org/">Refresh DC</a>
 event at <a href="http://www.cdiabu.com/overview/washington-campus.php">CDIA</a>.  <a href="http://paulannett.co.uk/">Paul
 Annett</a>, design lead at

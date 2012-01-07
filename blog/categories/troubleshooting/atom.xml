@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: troubleshooting | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/troubleshooting/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/troubleshooting/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Update your computer BIOS]]></title>
-    <link href="http://nanek.github.com/blog/2009/10/update-your-computer-bios/"/>
+    <link href="http://techopener.com/blog/2009/10/update-your-computer-bios/"/>
     <updated>2009-10-14T09:31:52-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/10/update-your-computer-bios</id>
+    <id>http://techopener.com/blog/2009/10/update-your-computer-bios</id>
     <content type="html"><![CDATA[<p>Friendly reminder to update your BIOS and device drivers every once in a
 while.  Sadly enough it is not sufficient to only ensure all operating system,
 anti-virus, and browser updates are up to date.</p>
@@ -41,9 +41,9 @@ owners.aspx</a></p>
   
   <entry>
     <title type="html"><![CDATA[Windows services crash after restoring from Standby mode]]></title>
-    <link href="http://nanek.github.com/blog/2009/04/windows-services-crash-after-restoring-from-standby-mode/"/>
+    <link href="http://techopener.com/blog/2009/04/windows-services-crash-after-restoring-from-standby-mode/"/>
     <updated>2009-04-02T22:45:16-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/04/windows-services-crash-after-restoring-from-standby-mode</id>
+    <id>http://techopener.com/blog/2009/04/windows-services-crash-after-restoring-from-standby-mode</id>
     <content type="html"><![CDATA[<p>Recently Windows Update applied SP3 to XP on my Dell Latitude D630. I was
 pretty sure I already installed SP3, but I applied it anyway, what could it
 hurt right?</p>

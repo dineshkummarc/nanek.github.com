@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: mobile | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/mobile/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/mobile/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Credit Cards and Security]]></title>
-    <link href="http://nanek.github.com/blog/2011/07/credit-cards-and-security/"/>
+    <link href="http://techopener.com/blog/2011/07/credit-cards-and-security/"/>
     <updated>2011-07-07T08:04:54-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/07/credit-cards-and-security</id>
+    <id>http://techopener.com/blog/2011/07/credit-cards-and-security</id>
     <content type="html"><![CDATA[<p>I recently returned from a wonderful trip to Norway.  One tech thing that
 stood out was that everywhere you go there they have portable card readers
 that read cards with a chip or magnetic stripe.  Looking into it, the "chip"
@@ -61,9 +61,9 @@ Seems like the market is poised for a shake-up.</p>
   
   <entry>
     <title type="html"><![CDATA[Location history reporting]]></title>
-    <link href="http://nanek.github.com/blog/2011/03/location-history-reporting/"/>
+    <link href="http://techopener.com/blog/2011/03/location-history-reporting/"/>
     <updated>2011-03-07T11:20:54-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/03/location-history-reporting</id>
+    <id>http://techopener.com/blog/2011/03/location-history-reporting</id>
     <content type="html"><![CDATA[<p>There are lots of mobile location sharing products and many new ones everyday.
 Most of them appear to be centered around location check-ins and sharing with
 friends.  While this is neat, it seems like only a small slice of the use
@@ -92,9 +92,9 @@ implement this and I hope to discuss it more over the next few days.</p>
   
   <entry>
     <title type="html"><![CDATA[Smartphone with unlimited everything for $25/month]]></title>
-    <link href="http://nanek.github.com/blog/2011/03/smartphone-with-unlimited-everything/"/>
+    <link href="http://techopener.com/blog/2011/03/smartphone-with-unlimited-everything/"/>
     <updated>2011-03-02T10:37:12-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/03/smartphone-with-unlimited-everything</id>
+    <id>http://techopener.com/blog/2011/03/smartphone-with-unlimited-everything</id>
     <content type="html"><![CDATA[<p>Virgin Mobile offers a great $25/month plan for unlimited data, text and web
 with 300 talk minutes with no contract to sign.  This works great for me, as I
 generally just have short phone conversations.  However there are of course
@@ -130,9 +130,9 @@ time.</p>
   
   <entry>
     <title type="html"><![CDATA[iPad apps]]></title>
-    <link href="http://nanek.github.com/blog/2010/04/ipad-apps/"/>
+    <link href="http://techopener.com/blog/2010/04/ipad-apps/"/>
     <updated>2010-04-02T08:35:36-04:00</updated>
-    <id>http://nanek.github.com/blog/2010/04/ipad-apps</id>
+    <id>http://techopener.com/blog/2010/04/ipad-apps</id>
     <content type="html"><![CDATA[<p>Prepared for tomorrow by downloading some iPad applications before the device
 has even been released.  Apple = Hype machine.  iPad will win for the same
 reasons the iPhone did.  For anyone not paying attention, it is the
@@ -144,9 +144,9 @@ applications.</p>
   
   <entry>
     <title type="html"><![CDATA[Foursquare on Windows Mobile]]></title>
-    <link href="http://nanek.github.com/blog/2009/12/foursquare-on-windows-mobile/"/>
+    <link href="http://techopener.com/blog/2009/12/foursquare-on-windows-mobile/"/>
     <updated>2009-12-22T21:47:50-05:00</updated>
-    <id>http://nanek.github.com/blog/2009/12/foursquare-on-windows-mobile</id>
+    <id>http://techopener.com/blog/2009/12/foursquare-on-windows-mobile</id>
     <content type="html"><![CDATA[<p><a href="http://foursquare.com">Foursquare </a>does not have a windows mobile version of
 their application, so I thought it would be a great opportunity to try and
 build an app.</p>

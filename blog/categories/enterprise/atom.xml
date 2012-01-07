@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: enterprise | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/enterprise/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/enterprise/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Company Lightning Talks]]></title>
-    <link href="http://nanek.github.com/blog/2009/10/company-lightning-talks/"/>
+    <link href="http://techopener.com/blog/2009/10/company-lightning-talks/"/>
     <updated>2009-10-15T18:27:49-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/10/company-lightning-talks</id>
+    <id>http://techopener.com/blog/2009/10/company-lightning-talks</id>
     <content type="html"><![CDATA[<p>I'm always searching for ways learn more.  I know a lot of smart people
 working on interesting projects, however it is often difficult to keep up with
 what others are working on.  This past June I organized <a href="http://en.wikipedia.org/wiki/Lightning_Talk">lightning
@@ -38,9 +38,9 @@ tomorrow. I will be presenting on Cloud Computing in the Government.</p>
   
   <entry>
     <title type="html"><![CDATA[Remote Desktop Manager]]></title>
-    <link href="http://nanek.github.com/blog/2009/08/remote-desktop-manager/"/>
+    <link href="http://techopener.com/blog/2009/08/remote-desktop-manager/"/>
     <updated>2009-08-10T20:56:16-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/08/remote-desktop-manager</id>
+    <id>http://techopener.com/blog/2009/08/remote-desktop-manager</id>
     <content type="html"><![CDATA[<p>If you find yourself managing a number of Windows servers take a look at
 <a href="http://www.code4ward.net/main/RoyalTS/Download.aspx">Royal TS 1.5.1</a>.</p>
 
@@ -58,9 +58,9 @@ it works great!</p>
   
   <entry>
     <title type="html"><![CDATA[Downloading Enterprise Software]]></title>
-    <link href="http://nanek.github.com/blog/2009/03/downloading-enterprise-software/"/>
+    <link href="http://techopener.com/blog/2009/03/downloading-enterprise-software/"/>
     <updated>2009-03-23T18:40:44-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/03/downloading-enterprise-software</id>
+    <id>http://techopener.com/blog/2009/03/downloading-enterprise-software</id>
     <content type="html"><![CDATA[<p>Why is finding the correct software installer or documentation so difficult?
 If you are a enterprise software vendor (particularly IBM, EMC, Oracle) and
 want to increase customer satisfaction, please fix this!  Granted these

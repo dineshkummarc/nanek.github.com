@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: development | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/development/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using the Dwolla API with node.js]]></title>
-    <link href="http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js/"/>
+    <link href="http://techopener.com/blog/2011/12/using-the-dwolla-api-with-node-js/"/>
     <updated>2011-12-02T10:55:52-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js</id>
+    <id>http://techopener.com/blog/2011/12/using-the-dwolla-api-with-node-js</id>
     <content type="html"><![CDATA[<p><a href="http://dwolla.com">Dwolla.com</a> is a new payment network. It makes it easy to
 transfer money without the transaction fees charged by credit cards. Each
 transaction over $10 is 25 cents, and those under $10 are free. I think this
@@ -42,9 +42,9 @@ utilize their API.</p>
   
   <entry>
     <title type="html"><![CDATA[Translation API for node.js]]></title>
-    <link href="http://nanek.github.com/blog/2011/11/translation-api-for-node-js/"/>
+    <link href="http://techopener.com/blog/2011/11/translation-api-for-node-js/"/>
     <updated>2011-11-17T14:24:20-05:00</updated>
-    <id>http://nanek.github.com/blog/2011/11/translation-api-for-node-js</id>
+    <id>http://techopener.com/blog/2011/11/translation-api-for-node-js</id>
     <content type="html"><![CDATA[<p>Microsoft provides a Translator API that allows you to translate text from one
 language into another. It provides up to 1000 transactions/month for free.
 Google also provides a translation API, however has recently removed their
@@ -60,9 +60,9 @@ provide the audio of the word being spoken.</p>
   
   <entry>
     <title type="html"><![CDATA[Full Text Search with Dropbox]]></title>
-    <link href="http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox/"/>
+    <link href="http://techopener.com/blog/2011/04/full-text-search-with-dropbox/"/>
     <updated>2011-04-25T18:58:20-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox</id>
+    <id>http://techopener.com/blog/2011/04/full-text-search-with-dropbox</id>
     <content type="html"><![CDATA[<p><a href="http://db.tt/BKfYgZE">Dropbox</a> + <a href="http://lucene.apache.org/solr/">Solr</a> =
 full text indexing and search for files in your Dropbox. I wrote an app in
 <a href="http://www.sinatrarb.com/">Sinatra</a> that authenticates to Dropbox, downloads
@@ -79,9 +79,9 @@ service instead of as a download and install, let me know.</p>
   
   <entry>
     <title type="html"><![CDATA[Team Drive on Google App Engine]]></title>
-    <link href="http://nanek.github.com/blog/2011/04/team-drive-on-google-app-engine/"/>
+    <link href="http://techopener.com/blog/2011/04/team-drive-on-google-app-engine/"/>
     <updated>2011-04-11T16:11:46-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/04/team-drive-on-google-app-engine</id>
+    <id>http://techopener.com/blog/2011/04/team-drive-on-google-app-engine</id>
     <content type="html"><![CDATA[<p>Last year, I created <a href="http://funddrive.appspot.com">Team Drive</a> on <a href="http://code.google.com/appengine/">Google App
 Engine</a>.  I wanted to learn about Google
 App Engine (GAE) which is a hosting platform for python/java based
@@ -119,9 +119,9 @@ operations such as sums or counts over large collections.</p>
   
   <entry>
     <title type="html"><![CDATA[A location based URL redirector]]></title>
-    <link href="http://nanek.github.com/blog/2011/03/a-location-based-url-redirector/"/>
+    <link href="http://techopener.com/blog/2011/03/a-location-based-url-redirector/"/>
     <updated>2011-03-31T11:33:40-04:00</updated>
-    <id>http://nanek.github.com/blog/2011/03/a-location-based-url-redirector</id>
+    <id>http://techopener.com/blog/2011/03/a-location-based-url-redirector</id>
     <content type="html"><![CDATA[<p>I wanted to create something to enter into <a href="http://quovadevchallenge.com/">Quova Dev
 Challenge</a>, so I created <a href="http://nearbylink.appspot.com">Nearby
 Link</a>.  Basically its a service that creates

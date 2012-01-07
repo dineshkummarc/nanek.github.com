@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: leadership | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/leadership/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/leadership/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Effective Meetings 101]]></title>
-    <link href="http://nanek.github.com/blog/2009/10/effective-meetings-101/"/>
+    <link href="http://techopener.com/blog/2009/10/effective-meetings-101/"/>
     <updated>2009-10-08T08:33:01-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/10/effective-meetings-101</id>
+    <id>http://techopener.com/blog/2009/10/effective-meetings-101</id>
     <content type="html"><![CDATA[<p>One thing that really bothers me is long in-effective meetings.  Here are a
 few basic meeting tips.</p>
 

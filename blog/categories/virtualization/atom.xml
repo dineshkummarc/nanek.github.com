@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: virtualization | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/virtualization/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/virtualization/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Keeping VMWare images small]]></title>
-    <link href="http://nanek.github.com/blog/2008/10/keeping-vmware-images-small/"/>
+    <link href="http://techopener.com/blog/2008/10/keeping-vmware-images-small/"/>
     <updated>2008-10-21T22:42:18-04:00</updated>
-    <id>http://nanek.github.com/blog/2008/10/keeping-vmware-images-small</id>
+    <id>http://techopener.com/blog/2008/10/keeping-vmware-images-small</id>
     <content type="html"><![CDATA[<p>Virtualization technology is used everywhere these days.  It really has
 changed the way I work and provides a number of advantages over traditional
 tools and methods.  I've created a library of VMWare instances with different
@@ -39,7 +39,7 @@ instances down to a reasonable size.</p>
 </ul>
 
 
-<p><img alt='VMWare Tools Shink Menu' src='http://nanek.github.com/images/vmware_tools_shrink.png' width='300px' height='261px'/></p>
+<p><img alt='VMWare Tools Shink Menu' src='http://techopener.com/images/vmware_tools_shrink.png' width='300px' height='261px'/></p>
 
 <p>If you have any other tips on how to manage vmware images, please post them in
 the comments!</p>

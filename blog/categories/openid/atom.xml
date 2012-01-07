@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: openid | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/openid/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/openid/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[5 reasons to use OpenID with Enterprise SaaS]]></title>
-    <link href="http://nanek.github.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas/"/>
+    <link href="http://techopener.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas/"/>
     <updated>2008-10-27T20:42:38-04:00</updated>
-    <id>http://nanek.github.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas</id>
+    <id>http://techopener.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas</id>
     <content type="html"><![CDATA[<p>As employees use more and more applications outside corporate network
 boundaries traditional identity systems start to break down.  Example business
 applications that fit this description are <a href="http://www.google.com/a">Google

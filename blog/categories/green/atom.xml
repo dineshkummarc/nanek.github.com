@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: green | Tech Opener]]></title>
-  <link href="http://nanek.github.com/blog/categories/green/atom.xml" rel="self"/>
-  <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T22:00:26-05:00</updated>
-  <id>http://nanek.github.com/</id>
+  <link href="http://techopener.com/blog/categories/green/atom.xml" rel="self"/>
+  <link href="http://techopener.com/"/>
+  <updated>2012-01-06T22:09:18-05:00</updated>
+  <id>http://techopener.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Climate Change solved by you]]></title>
-    <link href="http://nanek.github.com/blog/2009/10/climate-change-solved-by-you/"/>
+    <link href="http://techopener.com/blog/2009/10/climate-change-solved-by-you/"/>
     <updated>2009-10-15T21:45:12-04:00</updated>
-    <id>http://nanek.github.com/blog/2009/10/climate-change-solved-by-you</id>
+    <id>http://techopener.com/blog/2009/10/climate-change-solved-by-you</id>
     <content type="html"><![CDATA[<p>Today is <a href="http://www.blogactionday.org">Blog Action Day</a>.</p>
 
 <p><a href="http://www.blo%0Agactionday.org"><img src="http://www.blogactionday.org/imgs/badges/bad-300-250.jpg" alt="" /></a></p>
@@ -32,9 +32,9 @@ change.  Instead, we just need to change ourselves.</p>
   
   <entry>
     <title type="html"><![CDATA[No car, no problem]]></title>
-    <link href="http://nanek.github.com/blog/2008/12/no-car-no-problem/"/>
+    <link href="http://techopener.com/blog/2008/12/no-car-no-problem/"/>
     <updated>2008-12-08T23:56:41-05:00</updated>
-    <id>http://nanek.github.com/blog/2008/12/no-car-no-problem</id>
+    <id>http://techopener.com/blog/2008/12/no-car-no-problem</id>
     <content type="html"><![CDATA[<p>So my trusty 1992 Buick did not pass the State Inspection this year.  Who knew
 that the driver side power window needs to be fully operational?  Anyhow, to
 make a short story shorter, I have decided not to fix my car (at least not
@@ -62,9 +62,9 @@ yourself and there are also direct links to Google Maps walking directions.</p>
   
   <entry>
     <title type="html"><![CDATA[Dopplr tracks my flights and my carbon footprint]]></title>
-    <link href="http://nanek.github.com/blog/2008/10/dopplr-tracks-my-flights-and-my-carbon-footprint/"/>
+    <link href="http://techopener.com/blog/2008/10/dopplr-tracks-my-flights-and-my-carbon-footprint/"/>
     <updated>2008-10-29T21:18:33-04:00</updated>
-    <id>http://nanek.github.com/blog/2008/10/dopplr-tracks-my-flights-and-my-carbon-footprint</id>
+    <id>http://techopener.com/blog/2008/10/dopplr-tracks-my-flights-and-my-carbon-footprint</id>
     <content type="html"><![CDATA[<p>Carbon emissions are a significant cause of global warming.  Therefore, each
 of us needs to take responsibility in reducing our carbon footprint.  In order
 to do this, we have to understand how much carbon we are using.
