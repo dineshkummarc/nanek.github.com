@@ -4,7 +4,7 @@
   <title><![CDATA[Tech Opener]]></title>
   <link href="http://nanek.github.com/atom.xml" rel="self"/>
   <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T21:52:22-05:00</updated>
+  <updated>2012-01-06T22:00:26-05:00</updated>
   <id>http://nanek.github.com/</id>
   <author>
     <name><![CDATA[Kenan Shifflett]]></name>
@@ -25,7 +25,7 @@ to write some new posts. Just switched from Wordpress to
 <p>You can find migration instructions a number of places, but the process was pretty straightforward for me.</p>
 
 <ul>
-<li>Exported published posts from wordpress</li>
+<li>Exported published posts from Wordpress</li>
 <li>Updated xml export to include atom namespace that was missing</li>
 <li>Used <a href="https://github.com/thomasf/exitwp">exitwp</a> to convert the export
 into the markdown format. I did run into a <a href="https://github.com/thomasf/exitwp/issues/6">wrapping issue</a>.</li>
