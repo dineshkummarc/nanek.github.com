@@ -12,7 +12,7 @@ to write some new posts. Just switched from Wordpress to
 
 You can find migration instructions a number of places, but the process was pretty straightforward for me.
 
-- Exported published posts from wordpress
+- Exported published posts from Wordpress
 - Updated xml export to include atom namespace that was missing
 - Used [exitwp](https://github.com/thomasf/exitwp) to convert the export
   into the markdown format. I did run into a [wrapping issue](https://github.com/thomasf/exitwp/issues/6).
