@@ -1,0 +1,750 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Tech Opener</title>
+  <meta name="author" content="Kenan Shifflett">
+
+  
+  <meta name="description" content="I wanted to create something to enter into Quova Dev
+Challenge, so I created Nearby
+Link.  Basically its a service that creates
+links that redirect &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://nanek.github.com/blog/page/2">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Tech Opener" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-21779145-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Tech Opener</a></h1>
+  
+    <h2>Lets share more</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:nanek.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/03/a-location-based-url-redirector/">A Location Based URL Redirector</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-31T11:33:40-04:00" pubdate data-updated="true">Mar 31<span>st</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I wanted to create something to enter into <a href="http://quovadevchallenge.com/">Quova Dev
+Challenge</a>, so I created <a href="http://nearbylink.appspot.com">Nearby
+Link</a>.  Basically its a service that creates
+links that redirect users to different sites based on their current location.</p>
+
+<p>If that doesn&#8217;t make sense, then just visit
+<a href="http://goo.gl/ydDZP">http://goo.gl/ydDZP</a> and you will be taken to the
+contact form for the governor of your state. If a user in another state
+clicked the same link, they would visit the appropriate contact form for their
+state.  Get it?  One link, yet it can redirect to different sites based on the
+location of the user.</p>
+
+<p>Or instead, let&#8217;s say your trying to get people to eat at your restaurant by
+using social media like twitter or facebook, and you want them quickly find a
+store location in their area.  Quizno&#8217;s for example, could just link to to
+<a href="http://goo.gl/dHYhc">http://goo.gl/dHYhc</a> and it will automatically show
+locations around the user where they are at.</p>
+
+<p>Thoughts?  Other uses?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/03/location-history-reporting/">Location History Reporting</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-07T11:20:54-05:00" pubdate data-updated="true">Mar 7<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There are lots of mobile location sharing products and many new ones everyday.
+Most of them appear to be centered around location check-ins and sharing with
+friends.  While this is neat, it seems like only a small slice of the use
+cases in which location data is useful.</p>
+
+<p>For example, lets say that I take I-66 W to work everyday, starting around
+9am.  If this pattern is established, and there is an accident on I-66 W at
+8:50am, it would be great to know that before I start my commute.  The
+location and time of this event is important in that if it was another road or
+at another time, then I really don&#8217;t care to be informed regarding this event.
+Unless the event was at 9:30am and im running late.  In order to provide
+context aware alerts, you need to have sufficient data in order to have a good
+level of confidence that a user is likely to take an action at a certain time
+and place.</p>
+
+<p>Certainly there are existing ways to be informed regarding traffic situations.
+However, it seems to me that we have not taken automation regarding similar
+use cases yet to a usable level.  Smart phones that are aways on, full of
+sensors and generally always with us, empower us to easily track, record,
+analyze and alert with minimal or no input.  I&#8217;ve started to explore how to
+implement this and I hope to discuss it more over the next few days.</p>
+
+<p>&amp;nbsp_place_holder;</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/03/online-password-security/">Online Password Security</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-03T16:22:42-05:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I often find myself forgetting my passwords and usernames to various sites.
+So recently, I decided to get serious about password management.  I use
+<a href="http://www.keepassx.org/">KeyPassX</a> (or KeyPass if you are using windows) as
+a secure way to encrypt and record the urls, usernames and passwords to sites.</p>
+
+<p>I also signed up for <a href="http://www.google.com/suppor%0At/accounts/bin/static.py?hl=en&amp;page=guide.cs&amp;guide=1056283&amp;topic=1056284">Google 2 step verification</a>.
+This is useful for many reasons, but one in particular is that your gmail
+account contains a lot of information that can be used to access your other
+accounts.  Once you get past the initial setup, everything works seamlessly as
+it did before.  Enterprises have traditionally paid big bucks to implement
+this type of 2 factor authentication, typically requiring issuing RSA tokens
+or similar to all employees.  It&#8217;s great to see a more integrated solution
+being provided directly to consumers.</p>
+
+<p><a href="https://www.dropbox.com">Dropbox</a> has nothing to do with your password
+security, however it is a great tool to sync files between your computer, web,
+and devices.  So one way to always be sure that you don&#8217;t lose your KeyPass
+database or your Google verification backup codes is to place them in a
+private dropbox folder that you can reach from everywhere.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/03/smartphone-with-unlimited-everything/">Smartphone With Unlimited Everything for $25/month</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-02T10:37:12-05:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Virgin Mobile offers a great $25/month plan for unlimited data, text and web
+with 300 talk minutes with no contract to sign.  This works great for me, as I
+generally just have short phone conversations.  However there are of course
+times when I might get stuck on the phone for an hour or so.  Below are a few
+extra steps I took to help get around the 300 minute limit without spending
+any more.</p>
+
+<p>First, I ported my number to <a href="http://voice.google.com">Google Voice</a>(GV).  GV
+has a lot of features, but the key feature is being able to indicate where to
+forward calls to when your phone number is dialed.  For example, when my GV
+number is called, it is then forwarded to my mobile phone number.</p>
+
+<p>Secondly, I setup GV to forward to Google Talk within Gmail.  Im often in
+front of a computer, so this way I can easily make and receive phone calls for
+free without using my cell minutes or using a different phone number.</p>
+
+<p>Lastly, to take it the extra mile, what about a VOIP call when you are on your
+cell phone in order to avoid using your minutes?  Might as well use that
+unlimited data plan.  Turns out that there are a few extra steps here, however
+it is relatively easy to setup.  I use a
+<a href="http://www.google.com/gizmo5/">Gizmo5</a> SIP account for this and I won&#8217;t go
+into the details here, but there are
+<a href="http://iiordanov.blogspot.com/2009/07/sipdroid-gv-guava.html">plenty</a> of
+<a href="http://code.google.com/p/google-voice-sipsorcery-dialplans/w/list">posts</a> on
+the web describing how to set this up.  Keep in mind though that the call
+quality of this often does suffer based on the quality of the data connection.</p>
+
+<p>If you sign up for a <a href="http://www.virginmobileusa.com/">Virgin Mobile</a> account,
+feel free to use the Kickback Code IYFUMN7I for an extra 60 minutes of talk
+time.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/05/redmine-plugin-for-windows-authentication/">Redmine Plugin for Windows Authentication</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-02T19:36:16-04:00" pubdate data-updated="true">May 2<span>nd</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Redmine.org is an open source project management application. It is simple to
+setup and works great. It supports LDAP authentication out of the box. We
+recently setup Redmine for a project to run behind IIS using fastcgi and
+wanted to automatically login using windows authentication. We didn&#8217;t see a
+option for this, so I created a simple plugin that can be used to add this
+functionality.</p>
+
+<p>http://github.com/nanek/redmine_windowsauth</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/04/ipad-apps/">iPad Apps</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-02T08:35:36-04:00" pubdate data-updated="true">Apr 2<span>nd</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Prepared for tomorrow by downloading some iPad applications before the device
+has even been released.  Apple = Hype machine.  iPad will win for the same
+reasons the iPhone did.  For anyone not paying attention, it is the
+applications.</p>
+
+<p><a href="/images/iPadApps.png"><img src="/images/iPadApps.png" alt="iPad Apps" /></a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/03/cloudcamp-dc-2010/">CloudCamp DC 2010</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-25T22:58:21-04:00" pubdate data-updated="true">Mar 25<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Last Tuesday, I attended <a href="http://www.cloudcamp.org/dc">CloudCamp</a> in DC.  I&#8217;ve
+been meaning to go to an event like this for sometime and I was finally able
+to make it.  In particular my main takeaway from this event was how much
+better an unconference format is over a traditional conference.</p>
+
+<p>This CloudCamp was ran by <a href="http://twitter.com/davenielsen">Dave Nielsen</a>.
+There were over 200 people at my count, with standing room only at the
+beginning of the event.  I had my concerns with how effective the event would
+be based on its format with such a diverse and large audience.  However it was
+quite successful.  The audience members varied widely, from cloud vendors and
+consultants to government employees with no knowledge of the cloud and to
+those with existing or future cloud projects.</p>
+
+<p>The event started with lightning talks, followed by a panel from the audience
+with questions from the crowd, followed by two audience lead break out
+sessions, ending with a wrap-up over drinks.</p>
+
+<p>The best part about the event was that it was able to live up to the
+definition of an unconference.  Instead of going to a typical conference and
+hearing long presentations from just a few people, we were all able to
+participate, share experiences and learn from each other.  I look forward to
+attending the next CloudCamp and other unconference events.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/12/foursquare-on-windows-mobile/">Foursquare on Windows Mobile</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-12-22T21:47:50-05:00" pubdate data-updated="true">Dec 22<span>nd</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://foursquare.com">Foursquare </a>does not have a windows mobile version of
+their application, so I thought it would be a great opportunity to try and
+build an app.</p>
+
+<p>Things that are working fairly well:</p>
+
+<ul>
+<li>Foursquare API access.</li>
+<li>JSON.NET is used to parse the JSON responses.</li>
+<li>sqlite is used for caching http responses.</li>
+<li>OAuth is used for authentication to foursquare.</li>
+<li><p>GPS lookup.
+Things that don&#8217;t work and have proved difficult to implement:</p></li>
+<li><p>Responsiveness.  At times the app stops responding and overall feels too slow for normal use.</p></li>
+<li>Cell ID lookup.  This is important as GPS often does not work indoors.  It appears access to this API may be protected on most phones.</li>
+<li><p>Good looking user interface.  Plus dealing with different phone resolutions, orientations, and sizes makes it a little more complicated.
+Things that would be interesting to implement but require a solid base
+application:</p></li>
+<li><p>Map integration</p></li>
+<li>Integration with other API&#8217;s such as Yelp
+You can find the source at
+<a href="http://foursquare.codeplex.com">http://foursquare.codeplex.com</a> along with a
+CAB for installation on your phone if you want to try it out.  Look under the
+planned download section.  It works ok on my HTC Touch Pro.  If you are
+interested in contributing to this effort, let me know.  I&#8217;m debating spending
+more time on making this work better or building a HTML5 based mobile web
+application.</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/10/life-inc-call-to-action/">Life Inc. Call to Action</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-10-20T09:07:21-04:00" pubdate data-updated="true">Oct 20<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I recently completed the book, &#8221;<a href="http://rushkoff.com/books/life-incorporated/life-inc-distributors">Life Inc.</a> How the world became a corporation and how to take it back,&#8221; by <a href="http://rushkoff.com/">Douglas Rushkoff</a>.</p>
+
+<p><img alt='RUSHKOFF_LifeIncCOVER' src='/images/RUSHKOFF_LifeIncCOVER.jpg' width='197px' height='300px' /></p>
+
+<p>The book tells the compelling history of how corporations have defined and
+controlled the world since their inception.  It might make you rethink some
+basic assumptions we have about how society has evolved the way that it has.
+One example used in the book is the concept of having a large suburban home
+while working in the city, being constructed by car companies to create a
+market and the need for cars.  He ends the book with a call to action,
+specifically mentioning creating local currencies and using Community
+Supported Agriculture.  I&#8217;ve considered trying a
+<a href="http://www.localharvest.org/csa/">CSA</a> that would deliver to Arlington, but I
+don&#8217;t really cook that much.  He also mentions <a href="http://kiva.org">Kiva.org</a>
+which <a href="http://techopener.com/blog/2009/06/kiva-now-allows-loans-to-people-in-the-us/">I use and enjoy</a>.</p>
+
+<p>Do you use a CSA?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/10/5-great-microsoft-net-developer-blogs/">5 Great Microsoft .NET Developer Blogs</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-10-19T08:42:32-04:00" pubdate data-updated="true">Oct 19<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Scott Hanselman <a href="http://www.hanselman.com/">http://www.hanselman.com/</a> Dan
+Wahlin <a href="http://weblogs.asp.net/dwahlin/">http://weblogs.asp.net/dwahlin/</a> The
+Morning Brew <a href="http://blog.cwa.me.uk/">http://blog.cwa.me.uk/</a> Jon Galloway
+<a href="http://weblogs.asp.net/jgalloway/">http://weblogs.asp.net/jgalloway/</a> Scott
+Gu <a href="http://weblogs.asp.net/scottgu/">http://weblogs.asp.net/scottgu/</a></p>
+
+<p>I&#8217;m sure I missed a bunch.  What do you recommend?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/3/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/01/now-using-octopress/">Now using Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/12/using-the-dwolla-api-with-node-js/">Using the Dwolla API with node.js</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/11/translation-api-for-node-js/">Translation API for node.js</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/credit-cards-and-security/">Credit Cards and Security</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/book-recommendation-responsive-web-design/">Book recommendation: Responsive Web Design</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/nanek">@nanek</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'nanek',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/kenan.shifflett?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Kenan Shifflett -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'techopener';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

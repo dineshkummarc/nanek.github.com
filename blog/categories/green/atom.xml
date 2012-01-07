@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: green | Tech Opener]]></title>
+  <link href="http://nanek.github.com/blog/categories/green/atom.xml" rel="self"/>
+  <link href="http://nanek.github.com/"/>
+  <updated>2012-01-06T21:52:22-05:00</updated>
+  <id>http://nanek.github.com/</id>
+  <author>
+    <name><![CDATA[Kenan Shifflett]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Climate Change solved by you]]></title>
+    <link href="http://nanek.github.com/blog/2009/10/climate-change-solved-by-you/"/>
+    <updated>2009-10-15T21:45:12-04:00</updated>
+    <id>http://nanek.github.com/blog/2009/10/climate-change-solved-by-you</id>
+    <content type="html"><![CDATA[<p>Today is <a href="http://www.blogactionday.org">Blog Action Day</a>.</p>
+
+<p><a href="http://www.blo%0Agactionday.org"><img src="http://www.blogactionday.org/imgs/badges/bad-300-250.jpg" alt="" /></a></p>
+
+<p>You might be hoping for someone to invent a great new technology that will
+stop climate change.  Unfortunately, in reality it is really up to you to
+solve it.  Take a look at <a href="http://www.scientificamerican.com/article.cfm?id=10-solutions-for-%0Aclimate-change">10 Solutions for Climate
+Change</a>.  We don't need to invent new technology to stop climate
+change.  Instead, we just need to change ourselves.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[No car, no problem]]></title>
+    <link href="http://nanek.github.com/blog/2008/12/no-car-no-problem/"/>
+    <updated>2008-12-08T23:56:41-05:00</updated>
+    <id>http://nanek.github.com/blog/2008/12/no-car-no-problem</id>
+    <content type="html"><![CDATA[<p>So my trusty 1992 Buick did not pass the State Inspection this year.  Who knew
+that the driver side power window needs to be fully operational?  Anyhow, to
+make a short story shorter, I have decided not to fix my car (at least not
+right now).</p>
+
+<p>I would like to wait for an electric car to come out before buying a new one.
+Perhaps a <a href="http://www.chevrolet.com/electriccar/">Chevy Volt</a>, or a possible
+plug-in hybrid <a href="http://www.edmunds.com/insideline/do/Features/articleId=126123">Toyota
+Prius</a>, but
+they seem to be at least a year or more out.</p>
+
+<p>So until something changes, ill be depending a lot more on the metro system
+for my daily commute to work.  Today I took the Metro Bus to Tysons Corner for
+the first time.  It uses your SmartTrip card, runs frequently, was well
+heated, and even announces and displays the next stop (like airport shuttles).
+It does add a half an hour each way and I need to walk a little bit more, but
+overall it is great.  Certainly much easier and convenient that I first
+expected.</p>
+
+<p><a href="http://www.wmata.com/">WMATA </a>also updated their website today.  If you
+haven't used it recently, check it out.  You can email trip itineraries to
+yourself and there are also direct links to Google Maps walking directions.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dopplr tracks my flights and my carbon footprint]]></title>
+    <link href="http://nanek.github.com/blog/2008/10/dopplr-tracks-my-flights-and-my-carbon-footprint/"/>
+    <updated>2008-10-29T21:18:33-04:00</updated>
+    <id>http://nanek.github.com/blog/2008/10/dopplr-tracks-my-flights-and-my-carbon-footprint</id>
+    <content type="html"><![CDATA[<p>Carbon emissions are a significant cause of global warming.  Therefore, each
+of us needs to take responsibility in reducing our carbon footprint.  In order
+to do this, we have to understand how much carbon we are using.
+<a href="http://dopplr.com">Dopplr.com</a> is a service for frequent travellers, that
+primarily allows you to share your plans with other travellers.  However they
+also calculate the carbon footprint of your flights.  As a technical
+consultant there has been months where I have travelled week after week all
+over the country.  As I become more and more aware of my personal impact I
+continue to look for alternatives whether it be using web conferencing tools,
+combining trips or recommending to work remotely.  I encourage you to track
+your carbon footprint, and I highly recommend Dopplr to help you do so.</p>
+
+<p><img src="/images/carbon1.png" alt="Carbon Report" /></p>
+
+<p>Above is an screenshot from Dopplr showing the carbon footprint of some of my
+trips.</p>
+]]></content>
+  </entry>
+  
+</feed>

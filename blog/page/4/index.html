@@ -1,0 +1,835 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Tech Opener</title>
+  <meta name="author" content="Kenan Shifflett">
+
+  
+  <meta name="description" content="Kiva.org allows you to make micro-loans to people in need. This is a great
+example of how the social web can organize groups seeking a common goal. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://nanek.github.com/blog/page/4">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Tech Opener" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-21779145-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Tech Opener</a></h1>
+  
+    <h2>Lets share more</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:nanek.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/06/kiva-now-allows-loans-to-people-in-the-us/">Kiva Now Allows Loans to People in the US</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-06-10T23:36:55-04:00" pubdate data-updated="true">Jun 10<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Kiva.org allows you to make micro-loans to people in need. This is a great
+example of how the social web can organize groups seeking a common goal. It is
+pretty awesome when you can easily make a small loan of $25 with a group of
+random people to help someone start or expand their business. If you haven&#8217;t
+tried it yet I encourage you to check it out. When I started using the site I
+wondered why something like this was not available to people in the US. Well
+now it is possible through Kiva. This service is a win-win for all involved
+and I see this service growing dramatically over the next two years.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/04/windows-services-crash-after-restoring-from-standby-mode/">Windows Services Crash After Restoring From Standby Mode</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-04-02T22:45:16-04:00" pubdate data-updated="true">Apr 2<span>nd</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Recently Windows Update applied SP3 to XP on my Dell Latitude D630. I was
+pretty sure I already installed SP3, but I applied it anyway, what could it
+hurt right?</p>
+
+<p>Well&#8230;every time I restored from Standby mode, my network services, firewall,
+sound and a number of other services stopped working. Most notably was the
+sound, and after further investigation I noticed the rest. Odd flickering of
+the windows theme also cued that something was out of whack. I first thought
+it might be related to a virus or Conficker, however after triple checking and
+re-scanning everything nothing came up.</p>
+
+<p>Looking further, windows has all of these services running under the same
+svchost.exe process. Therefore when one of these crashes, it takes down all of
+them. Below is a list of the services Windows runs as a shared process on my
+machine: AudioSrv,BITS,Browser,CryptSvc,Dhcp,ERSvc,
+EventSystem,helpsvc,lanmanserver,lanmanworkstation,Netman,Nla,RasMan,
+Schedule,seclogon,SENS,SharedAccess,ShellHWDetection,TapiSrv,Themes,
+TrkWks,w32time,winmgmt,wuauserv,WZCSVC</p>
+
+<p>Turns out you can modify these services to run their own process, which would
+allow me to determine which service is causing the problem. From the command
+prompt: sc.exe config ServiceName type= own You need the space between the &#8220;=&#8221;
+and &#8220;own&#8221;. This command will cause the service to always launch in its own
+svchost. To revert the service back to its original state, run the following
+command from the command prompt: sc.exe config ServiceName type= share</p>
+
+<p>After setting this and restarting the services I went into Standby to
+reproduce the issue. This time nothing crashed except for the Wireless Zero
+Configuration service. Now that I have narrowed it down, I did some more
+searching and found <a href="http://support.mi%0Acrosoft.com/kb/951447">http://support.microsoft.com/kb/951447</a> which says to disable the the power management features
+on the Wireless Network Connection. Makes sense, so I give it a try. Go into
+Standby, startup and then immediate blue screen of death.</p>
+
+<p>Taking a look at the wireless drivers reveals they are pretty old, so a quick
+search for the Intel 3945ABG wireless driver reveals some recently released
+<a href="http://downloadcenter.intel.com/Product_Filter.aspx?ProductID=2259">driver
+updates</a>.
+With these updated drivers I don&#8217;t get a blue screen, however I still have the
+issue of the Wireless Zero Configuration service crashing.  Luckily this
+service isn&#8217;t necessary as Intel provides Wireless connection software.  Also
+the service can be started once it fails if needed.  However it is a bit
+annoying.  Even though I didn&#8217;t completely resolve this issue, I do think the
+troubleshooting steps that were taken would be useful in other similar
+situations.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/03/downloading-enterprise-software/">Downloading Enterprise Software</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-03-23T18:40:44-04:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Why is finding the correct software installer or documentation so difficult?
+If you are a enterprise software vendor (particularly IBM, EMC, Oracle) and
+want to increase customer satisfaction, please fix this!  Granted these
+companies are in this situation because they have acquired a number of other
+companies.  However this problem is simple to fix and would save many from
+wasting time finding installers or writing documentation on how to reach the
+documentation.  My personal recommendations below:</p>
+
+<ul>
+<li>Product Name  (Pick one name and stick with it across the board)</li>
+<li>Product Category (I usual find these to be very unhelpful and arbitrary.  Most times, I would rather see a long list of products or product suites.  If I have to click through three or more categories just to see a list of downloads then you are doing it wrong.  I can scan through 100s of product names in a single list, much quicker than I can click through each category.  Most of the times the categories are wrong anyhow.)</li>
+<li>Product Version (I only want to see the most recent version, but leave a link to access previous versions right next to it)</li>
+<li>Product Platform / Type (If your going to list this, then be consistent and accurate.)</li>
+<li>Product Documentation (This is best included in the installation download and available completely separately in an HTML online version.  However don&#8217;t list the installer and the documentation as separate zips in the same list, this just clutters the whole thing.</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/03/windows-azure-presentation/">Windows Azure Presentation</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-03-20T17:58:04-04:00" pubdate data-updated="true">Mar 20<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Yesterday I went to the <a href="http://www.a%0Azureusergroup.com/group/midatlanticcloudcomputingusergroupmcc">Mid-Atlantic Cloud Computing user group</a> in Reston, VA.
+It&#8217;s a newly formed group that plans to meet once a month.  The topic of the
+evening was Windows Azure, in which Scott Zimmerman from Microsoft gave a
+great overview of their online suite of products with a focus on the Compute
+and Storage capabilities of Windows Azure.  I wont go into the topic right now
+as the <a href="http://blogs.msdn.com/zxue/archive/2009/03/20/mid-%0Aatlantic-cloud-computing-ug-presentation.aspx">presentation</a> is available, but below are a
+few interesting notes:</p>
+
+<ul>
+<li>$500 million dollars invested for each data center</li>
+<li>Half of all Exchange/SharePoint/Dynamic CRM revenue is expected to come from online service in the next 5 years</li>
+<li>Everything is replicated at least 3 times</li>
+<li>Currently runs .NET and C++.  Java/Ruby other languages coming soon</li>
+<li>Visual Studio works with all of the services but is not required, everything is exposed through REST and SOAP</li>
+<li>BizTalk Server 2009 can be used to help manage connections to the cloud</li>
+<li>Declarative Fabric controller handles the deployment and configuration automatically</li>
+<li>Community Tech Preview is currently free.  Service will be live by the end of 2009 with pricing plans
+Other Cloud Computing links of interest:</li>
+</ul>
+
+
+<p><a href="http://www.cloudcamp.com/">http://www.cloudcamp.com/</a>
+<a href="http://cloudcomputingexpo.com/">http://cloudcomputingexpo.com/</a>
+<a href="http://videos.visitmix.com/mix09">http://videos.visitmix.com/mix09</a> has
+videos on all of the sessions including some on the Microsoft Azure platform.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/02/gmail-signature-plugin-to-display-recent-blog-entries/">Gmail Signature Plugin to Display Recent Blog Entries</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-02-21T14:08:29-05:00" pubdate data-updated="true">Feb 21<span>st</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>My current email signature at the bottom of my emails has a link to this blog.
+However what I would really like is a link to my blog followed by the title of
+two or three of my most recent posts.  I could certainly do this manually,
+however it would be nice and quicker if Gmail could do this automatically.  I
+though about it and there are at least a few ways I can get this done:</p>
+
+<ul>
+<li>Make a suggestion to the Gmail Labs program (http://groups.google.com/group/gmail-labs-suggest-a-labs-feature/browse_thread/thread/925279280fcdfa2f#)</li>
+<li>Search Google (Find out about the Feedburner Headline Animator which makes an animated image like below)</li>
+<li>Make a GreaseMonkey script (would only work when using Firefox with GreaseMonkey enabled)</li>
+<li>Make a bookmarklet that does this or at least copies the signature to my clipboard for quick pasting into my email
+One of the great things about the web is that if you want something you can
+usually just do it or find someone who has already.</li>
+</ul>
+
+
+<p>Example of the Feedburner Headline Animator.  I would prefer plain text for my
+emails.  Lazyweb if you know of a good way to do this let me know.</p>
+
+<p><a href="http://feeds2.%0Afeedburner.com/~r/TechOpener/~6/1"><img src="http://feeds2.feedburner.com/TechOpener.1.gif" alt="Tech Opener" /></a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/01/table-sorting-with-jquery/">Table Sorting With JQuery</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-22T19:57:06-05:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A very common request for HTML tables is making them sortable.  The
+requirement came up the other day and I used <a href="http://jquery.com">JQuery</a> and
+the <a href="http://tablesorter.com">JQuery Plugin tablesorter</a>.  JQuery is a
+excellent lightweight javascript library that is useful for all things
+javascript.  It also allows its large developer community to develop plugins
+such as the tablesorter plugin.  To use this in your web application, insert
+the lines below and you are all set.  It does not get much easier than that,
+plus it is really fast, has customization options, and just plain works.</p>
+
+<pre><code>&lt;script type="text/javascript" src="/path/to/jquery-latest.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/path/to/jquery.tablesorter.js"&gt;&lt;/script&gt;
+
+[sourcecode language='javascript']$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);[/sourcecode]
+</code></pre>
+
+<p>One requirement is that the HTML table must use the THEAD and TBODY tags.  A
+.NET GridView does not include these tags by default, but they can be added
+easily enough with the following:</p>
+
+<p>[sourcecode language=&#8217;c#&#8217;] if (this.gridView.Rows.Count > 0) {
+gridView.UseAccessibleHeader = true; gridView.HeaderRow.TableSection =
+TableRowSection.TableHeader; } [/sourcecode]</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/01/stackoverflow-will-answer-all-your-programming-questions/">Stackoverflow Will Answer All Your Programming Questions</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-16T19:36:17-05:00" pubdate data-updated="true">Jan 16<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="/images/stackoverflow.png" alt="stackoverflow" /></p>
+
+<p>Lately I have been doing more .NET development and ultimately at some point
+you get stuck, forget how to do something, or wonder what the best practices
+for something is.  You immediately run a few google searches and get back some
+articles on a bunch of weird answer sites.  Recently a new site for asking
+questions started with a really good and unique design.  If you have not ran
+across it already, I highly recommend taking a look.
+<a href="http://stackoverflow.com">StackOverflow.com</a> is a mix between wikis, blogs,
+forums, and digg for programming questions and answers.  Even though it is
+fairly new, it already has a great community and lots of content.  Many
+languages and topics are covered even though the community, founders, and the
+site itself are primarily .NET based.</p>
+
+<p>They also run a great <a href="http://blog.stackoverflow.com">blog and podcast</a> where
+they talk about the site and how they developed it.  They are off to a great
+start, and they are looking to start a similar site oriented towards <a href="http://blog.stackoverflow.com/2009/01/coming-in-march-it-stack-overflow/">IT
+Centric</a> version soon.  These guys get it.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/01/how-to-migrate-users-in-oracle-webcenter-interaction/">How to Migrate Users in Oracle Webcenter Interaction</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-15T23:11:55-05:00" pubdate data-updated="true">Jan 15<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Webcenter Interation provides great tools for importing users from external
+user directories.  Depending on your user directory and configuration you set
+a unique identifier to use that is often not the username.  I have ran across
+a few senarios in which you want to switch to a different user directory
+without losing any user settings or preferences.</p>
+
+<p>Most commonly, you might have a production Active Directory server that a
+production portal syncs with and a development server that syncs with a
+development Active Directory server.  Now lets say you migrate your production
+portal database to your development environment.  There are a number of items
+you have to fix for it to operate in this new environment.  Take a look at
+<a href="http://fsanglier.blogspot.com/2008/01/alui-administration-tool-for.html">ALUI Administration Tool for Environment Refresh: String Replacing for
+URLS</a>
+for more information regarding syncing environments.  For the purpose of this
+post, we are just concerned about the users and keeping their settings,
+preferences and security throughout the portal.</p>
+
+<p>In our case, a users Active Directory ObjectGUID is their unique identifier
+and by definition this is different in each Active Directory server (unless
+they are in the same domain of course).  So if we just sync with the
+development Active Directory server, the portal would delete all of the users
+and then recreate them even though the usernames are the same.  Below are some
+steps I have successfully used in the past to avoid deleting these users by
+migrating them to the new authentication source.  Your results may vary, and I
+do not offer any guarantees so certainly test this procedure thoroughly if you
+find yourself in a similar situation.</p>
+
+<ul>
+<li>Backup the database before starting incase something goes wrong.</li>
+<li>Lets assume the existing authentication source id = 201</li>
+<li>Create a temporary authentication source used for migration.  Lets assume its id = 202. </li>
+<li>Configure both of these authentication source to point to the development Active Directory server.</li>
+<li>Run the sync job only for auth source 202.</li>
+<li><p>Run the following SQL script which generates another SQL script that will update the settings of users of the 201 auth source in the PTUSERS table to match those of the 202 auth source.
+[sourcecode language=&#8217;sql&#8217;]SELECT &#8216;UPDATE PTUSERS SET AUTHUNIQUENAME=&#8221;&#8217; +
+AUTHUNIQUENAME + &#8221;&#8217;, DESCRIPTION=&#8221;&#8217; + DESCRIPTION + &#8221;&#8217;, AUTHUSERNAME=&#8221;&#8217; +
+AUTHUSERNAME + &#8221;&#8217; WHERE MAPPINGAUTHNAME=&#8221;&#8217; + MAPPINGAUTHNAME  &#8221;&#8217; AND
+AUTHSOURCEID=201;&#8217; FROM PTUSERS WHERE AUTHSOURCEID=202;[/sourcecode]</p></li>
+<li><p>Verify the script that it generates escapes any apostrophe characters and then run it.</p></li>
+<li><p>Run the following SQL script which generates another SQL script that will update the settings of groups of the 201 auth source in the PTUSERGROUPS table to match those of the 202 auth source. 
+[sourcecode language=&#8217;sql&#8217;]SELECT &#8216;UPDATE PTUSERGROUPS SET AUTHUNIQUENAME=&#8221;&#8217;
++ AUTHUNIQUENAME + &#8221;&#8217;, DESCRIPTION=&#8221;&#8217; + DESCRIPTION + &#8221;&#8217;,
+SYNCHGROUPNAME=&#8221;&#8217; + SYNCHGROUPNAME + &#8221;&#8217; WHERE MAPPINGAUTHNAME=&#8221;&#8217; +
+MAPPINGAUTHNAME + &#8221;&#8217; AND AUTHSOURCEID=201;&#8217;  FROM PTUSERGROUPS WHERE
+AUTHSOURCEID=202;[/sourcecode]</p></li>
+<li><p>Verify the script that it generates escapes any apostrophe characters and then run it.</p></li>
+<li>Delete the 202 auth source.</li>
+<li>Run the 201 auth source sync job.</li>
+<li>Verify that users you expected not to be deleted, were not deleted.
+The PTUSERS table contains some CRC fields, which are based upon all of the
+fields in a PTUSER record.  The easiest way to update these CRC values for a
+user, is to save the user using the portal UI or API.  In the past I have
+written a script that loops through each user in the authentication source and
+saves them, thus updating the CRC fields, however I can not find it.  I will
+leave this part as an exercise for the reader.  Just keep in mind that you
+will need this before the user will be able to authenticate properly.
+Although it does seem like the .NET portal relies on the CRC values more so
+than the Java portal version.</li>
+</ul>
+
+
+<p>As a side note, I am using the <a href="http://wordpress.org/extend/plugins/syntaxhighlighter-plus/">SyntaxHighlighter
+Plus</a> wordpress
+plugin to provide the syntax highlighting.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/01/htc-touch-pro-with-sprint/">HTC Touch Pro With Sprint</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-07T22:38:06-05:00" pubdate data-updated="true">Jan 7<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>My company provides me with a mobile phone, and we just switched carriers from
+AT&amp;T to Sprint.  Along with this, I got the <a href="http://www.htc.com/www/product.aspx?id=49518">HTC Touch
+Pro</a>.  It has everything my old
+HTC 8525 had including WiFi, a slide out keyboard, exchange integration, and a
+touch screen.  Some new features include GPS, Windows Mobile 6, Sprint Music
+and TV, and a slicker look and feel.</p>
+
+<p><img src="http://www.htc.com/uploadedImages/WWW/Product/HTC_Touch_Pro/Gallery/large7%0A.jpg" alt="" /></p>
+
+<p>I immediately downloaded (which was super quick) and installed the following
+windows mobile applications:</p>
+
+<ul>
+<li><a href="http://www.google.com/mobile/winmo/">Google Maps</a> even includes street view now on the mobile and works great with integrated GPS.</li>
+<li><a href="http://qik.com">Qik</a> does video streaming.  I have not used this before, but I hear good things and want to try it out.</li>
+<li><a href="http://mobile.yahoo.com/go">Yahoo! Go</a>
+I have not tried it yet, but at some point ill probably break down and buy
+<a href="http://www.wmwifirouter.com/">WMWifiRouter</a> as it sounds too useful when
+traveling.  Also Windows Live Search was already installed, which has a great
+Speak feature for searching.</li>
+</ul>
+
+
+<p>What windows mobile apps do you recommend?  Oh wait, I forgot, everyone uses
+the iPhone now!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/01/workaround-ssl-cert-warnings-with-stunnel/">Workaround SSL Cert Warnings With Stunnel</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-05T20:00:00-05:00" pubdate data-updated="true">Jan 5<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>On occasion I find myself attempting to programatically make a HTTP request
+over SSL, however it gives connection warnings such as expiration or name
+mismatch which causes the request to fail.  You could update the server
+certificate, however this can be a pain.  An alternative is to use stunnel.
+Install it, set it up to accept traffic on a port and then forward that
+traffic to the SSL site.  Your client can then connect over http to the
+stunnel port, and stunnel will forward this request to the SSL site ignoring
+the warnings.  There are a number of other uses for stunnel, so check it out,
+if your working with SSL.</p>
+
+<p><a href="http://www.stunnel.org/">http://www.stunnel.org/</a></p>
+
+<p>Example config file below:</p>
+
+<pre><code>client=yes
+verify=0
+[psuedo-https]
+accept  = 8080
+connect = yourhost:443
+TIMEOUTclose = 0
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/5/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/3/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/01/now-using-octopress/">Now using Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/12/using-the-dwolla-api-with-node-js/">Using the Dwolla API with node.js</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/11/translation-api-for-node-js/">Translation API for node.js</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/credit-cards-and-security/">Credit Cards and Security</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/book-recommendation-responsive-web-design/">Book recommendation: Responsive Web Design</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/nanek">@nanek</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'nanek',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/kenan.shifflett?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Kenan Shifflett -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'techopener';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

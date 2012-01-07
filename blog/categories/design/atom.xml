@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: design | Tech Opener]]></title>
+  <link href="http://nanek.github.com/blog/categories/design/atom.xml" rel="self"/>
+  <link href="http://nanek.github.com/"/>
+  <updated>2012-01-06T21:52:22-05:00</updated>
+  <id>http://nanek.github.com/</id>
+  <author>
+    <name><![CDATA[Kenan Shifflett]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Book recommendation: Responsive Web Design]]></title>
+    <link href="http://nanek.github.com/blog/2011/07/book-recommendation-responsive-web-design/"/>
+    <updated>2011-07-06T10:56:30-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/07/book-recommendation-responsive-web-design</id>
+    <content type="html"><![CDATA[<p>I just finished <a href="http://www.abookapart.com/products%0A/responsive-web-design">Responsive Web Design</a> by Ethan Marcotte. It is a quick and entertaining
+read. It brings together some CSS techniques you may already know and some you
+probably don't to give clear solution to an ever increasing problem of dealing
+with varying screen sizes. I look forward to using these strategies in my next
+project and I highly recommend the book. Let me know if you want to borrow it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[No timezones / no daylight savings time]]></title>
+    <link href="http://nanek.github.com/blog/2011/04/no-timezones-no-daylight-savings-time/"/>
+    <updated>2011-04-01T13:49:30-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/04/no-timezones-no-daylight-savings-time</id>
+    <content type="html"><![CDATA[<p>Timezones and daylight savings time never really made sense to me.  How could
+something as fundamental, precise and constant as time be dependent upon my
+location or a local government?</p>
+
+<p><img src='http://nanek.github.com/images/SwatchBeat1.jpg' width='263px' height='300px' /></p>
+
+<p>Turns out, <a href="http://en.wikipedia.org/wiki/Swatch_Internet_Time">Swatch</a> tried
+to tackle this already.  <a href="http://ebeats.org/">eBeats</a> is trying something
+similar.  Until then, there is always <a href="http://everytimezone.com/">Every Time Zone</a>.</p>
+
+<p>&amp;nbsp_place_holder;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Clever Web Design at Refresh DC]]></title>
+    <link href="http://nanek.github.com/blog/2009/09/clever-web-design-at-refresh-dc/"/>
+    <updated>2009-09-22T22:45:36-04:00</updated>
+    <id>http://nanek.github.com/blog/2009/09/clever-web-design-at-refresh-dc</id>
+    <content type="html"><![CDATA[<p>Earlier this evening I attended a <a href="http://www.refresh-dc.org/">Refresh DC</a>
+event at <a href="http://www.cdiabu.com/overview/washington-campus.php">CDIA</a>.  <a href="http://paulannett.co.uk/">Paul
+Annett</a>, design lead at
+<a href="http://clearleft.com/">Clearleft</a>, gave a great presentation on how being
+clever in web design can promote viral word of mouth marketing.   He gives
+great examples of logos and websites that have intentionally and
+unintentionally added subtle features/easter eggs that allow the user to
+discover and share them.  Who knew FedEx had an arrow in its logo? Check out
+the presentation below or on his site:</p>
+
+<p><img src="http://counters.gigya.com/wildfire/IMP/CXNID=2000002.0NXC/bT*xJmx*PTEyNTM2%0ANzM*MDEyOTYmcHQ9MTI1MzY3MzQxNjgxMiZwPTEwMTkxJmQ9c3NfZW1iZWQmZz*yJm89NDAxMzM*Ym%0AVmMTlkNDk2MWI*MzQ1NDMzYTYzM2Y4Mzcmb2Y9MA==.gif" alt="" /></p>
+
+<p><a href="http://www.slideshare.net/nicepaul/oooh-thats-clever-unnatural-%0Aexperiments-in-web-design">Oooh, that's Clever! (unnatural experiments in web
+design)</a></p>
+
+<p>View more <a href="http://www.slideshare.net/">documents</a> from
+<a href="http://www.slideshare.net/nicepaul">nicepaul</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

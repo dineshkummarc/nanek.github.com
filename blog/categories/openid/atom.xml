@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: openid | Tech Opener]]></title>
+  <link href="http://nanek.github.com/blog/categories/openid/atom.xml" rel="self"/>
+  <link href="http://nanek.github.com/"/>
+  <updated>2012-01-06T21:52:22-05:00</updated>
+  <id>http://nanek.github.com/</id>
+  <author>
+    <name><![CDATA[Kenan Shifflett]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[5 reasons to use OpenID with Enterprise SaaS]]></title>
+    <link href="http://nanek.github.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas/"/>
+    <updated>2008-10-27T20:42:38-04:00</updated>
+    <id>http://nanek.github.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas</id>
+    <content type="html"><![CDATA[<p>As employees use more and more applications outside corporate network
+boundaries traditional identity systems start to break down.  Example business
+applications that fit this description are <a href="http://www.google.com/a">Google
+Apps</a>, <a href="http://www.microsoft.com/online">Microsoft Online
+Services</a>, <a href="http://zoho.com">Zoho</a>,
+<a href="http://www.salesforce.com">Salesforce</a>, <a href="http://www.adp.com">ADP</a>,
+<a href="http://www.webex.com">WebEx</a>, <a href="http://www.quickarrow.com">QuickArrow</a> to name
+a few.  Luckily OpenID can step in and provide a great experience for IT
+administrators and end users.  <a href="http://openid.net">OpenID</a> is a web
+authentication protocol based on open standards.</p>
+
+<p>Currently end users have to create new accounts at each of the sites above,
+much like early days of the enterprise when you had to create a new account
+for each application until SSO solutions came along.  Creating new accounts is
+not only a pain for employees but perhaps even more so to IT administrators
+that need to manage these accounts.  Below are 5 reasons to create a corporate
+OpenID provider instead of having your users create new accounts:</p>
+
+<p><strong>Account creation and removal</strong> = Normally users have to create a new account at each site.  When a user leaves the organization they could potentially still have access as they created the account, unless you have a good process in place to deactivate accounts.  OpenID can be integrated with your existing user repository such as Active Directory or LDAP so that when accounts are deleted they can no longer be used.<br/>
+<strong>Authentication method</strong> = Since you control the OpenID provider, you can control the authentication method.  You can use different methods such as Username/Password, InfoCards, SSL Client Certificates or Tokens.<br/>
+<strong>Password Managment</strong> = When web applications outside your organization control the account, they might not have as robust password management features which places more responsibility on your employees.  When you control the authentication using OpenID, you can set your own password policies and there is only one password that the user needs to remember.<br/>
+<strong>Company branding and identity, naming conventions</strong> = OpenID uses a URL as a users identity, therefore you can include your company name, such as http://user.company.com.  This allows you to set a standard naming convention that is consistant throughout your organizations, much like your email addresses are.<br/>
+<strong>User experience</strong> = Users only have to remember one account.</p>
+
+<p>An example is Sun, they have setup a OpenID for their employees at
+https://openid.sun.com</p>
+
+<p>Please leave your thoughts in the comments!</p>
+]]></content>
+  </entry>
+  
+</feed>

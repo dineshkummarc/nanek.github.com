@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tools | Tech Opener]]></title>
+  <link href="http://nanek.github.com/blog/categories/tools/atom.xml" rel="self"/>
+  <link href="http://nanek.github.com/"/>
+  <updated>2012-01-06T21:52:22-05:00</updated>
+  <id>http://nanek.github.com/</id>
+  <author>
+    <name><![CDATA[Kenan Shifflett]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Full Text Search with Dropbox]]></title>
+    <link href="http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox/"/>
+    <updated>2011-04-25T18:58:20-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox</id>
+    <content type="html"><![CDATA[<p><a href="http://db.tt/BKfYgZE">Dropbox</a> + <a href="http://lucene.apache.org/solr/">Solr</a> =
+full text indexing and search for files in your Dropbox. I wrote an app in
+<a href="http://www.sinatrarb.com/">Sinatra</a> that authenticates to Dropbox, downloads
+your files, and indexes them in Solr. It also provides a simple interface for
+searching that includes hit highlighting and some basic facet support.</p>
+
+<p><a href="/images/searchdropbox.png"><img src="/images/searchdropbox.png" alt="Search Dropbox" /></a></p>
+
+<p>I've posted the project on <a href="https://github.com/nanek/searchdropbox">github</a>,
+so feel free to download and try it. For anyone interested in this as a hosted
+service instead of as a download and install, let me know.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Analyzing data from DonorsChoose.org]]></title>
+    <link href="http://nanek.github.com/blog/2011/04/analyzing-data-from-donorschoose-org/"/>
+    <updated>2011-04-14T12:28:38-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/04/analyzing-data-from-donorschoose-org</id>
+    <content type="html"><![CDATA[<p>DonorsChoose.org is running a <a href="http://www.donorschoose.org/hacking-%0Aeducation">contest</a> by opening up its data for analysis and use in innovative
+applications.  They have provided data dumps for project, search, donation and
+gift card data in large csv files.  There are a two free tools that I
+recommend to quickly review this data.</p>
+
+<p><a href="http://code.google.com/p/google-refine/">Google Refine</a> allows you to filter
+the data and identify data quality issues.  It also makes it very easy to
+manipulate and transform the data any way you like.  Bulk replacements and
+column transforms are two of its strengths.  Another cool feature is the
+ability to template exports into different formats such as JSON.  Heres some
+tips I found with working with the Donors Choose data.  First increase the
+<a href="http://code.google.com/p/google-%0Arefine/wiki/FaqAllocateMoreMemory">memory settings</a>.  Second, update the <a href="http://code.google.com/p/google-refine/issues/detail?id=31#c6">facet limit
+setting</a> to
+something higher.  The <a href="http://code.google.com/p/google-refine/">screencasts</a>
+for Google Refine do a great job in demonstrating its use.</p>
+
+<p><a href="http://www.google.com/fusiontables/">Google Fusion Tables</a> is good for
+visualizing data in various ways like charts, maps, or timelines.  This tool
+works better with data sets that are already cleaned up.  It takes some time
+to load the data and process it, so it is best served for working with just a
+slice of data that you would like to present for a specific purpose.  It does
+have a 250mb limit per user and a 100mb limit per csv file.</p>
+
+<p>So go ahead and start analyzing this data.  It is for a good cause and the
+lucky contest winner will get to meet Steven Colbert!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Online password security]]></title>
+    <link href="http://nanek.github.com/blog/2011/03/online-password-security/"/>
+    <updated>2011-03-03T16:22:42-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/03/online-password-security</id>
+    <content type="html"><![CDATA[<p>I often find myself forgetting my passwords and usernames to various sites.
+So recently, I decided to get serious about password management.  I use
+<a href="http://www.keepassx.org/">KeyPassX</a> (or KeyPass if you are using windows) as
+a secure way to encrypt and record the urls, usernames and passwords to sites.</p>
+
+<p>I also signed up for <a href="http://www.google.com/suppor%0At/accounts/bin/static.py?hl=en&amp;page=guide.cs&amp;guide=1056283&amp;topic=1056284">Google 2 step verification</a>.
+This is useful for many reasons, but one in particular is that your gmail
+account contains a lot of information that can be used to access your other
+accounts.  Once you get past the initial setup, everything works seamlessly as
+it did before.  Enterprises have traditionally paid big bucks to implement
+this type of 2 factor authentication, typically requiring issuing RSA tokens
+or similar to all employees.  It's great to see a more integrated solution
+being provided directly to consumers.</p>
+
+<p><a href="https://www.dropbox.com">Dropbox</a> has nothing to do with your password
+security, however it is a great tool to sync files between your computer, web,
+and devices.  So one way to always be sure that you don't lose your KeyPass
+database or your Google verification backup codes is to place them in a
+private dropbox folder that you can reach from everywhere.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Network Monitoring with Zenoss]]></title>
+    <link href="http://nanek.github.com/blog/2009/09/network-monitoring-with-zenoss/"/>
+    <updated>2009-09-10T08:00:16-04:00</updated>
+    <id>http://nanek.github.com/blog/2009/09/network-monitoring-with-zenoss</id>
+    <content type="html"><![CDATA[<p>Recently I configured <a href="http://www.zenoss.com/">Zenoss</a> for a client to allow
+them to be more proactive and receive email notifications when a service or
+server goes down on their network.  When you are frequently upgrading or
+modifying applications there are bound to be issues that crop up and cause
+failures.  It is best to be aware of these and correct them before your users
+notice.</p>
+
+<p>To get started you can download a Virtual appliance with Zenoss already
+installed.  Once it is up and running, you will want to install a few ZenPacks
+that are relevant to your environment.  These are basically just extensions to
+the product that can give you more specific collection and reporting tools.
+The next step is ensure there is an SNMP agent running on the machines you
+plan to monitor.  SNMP is a common network monitoring protocol and an basic
+agent comes with Windows.</p>
+
+<p>Once you have the basic ZenPacks and SNMP running you can have Zenoss discover
+all your servers and network devices, or you can add individual servers as
+needed.</p>
+
+<p>Zenoss will model each device, determine what software, services, ports, disk
+drives are on the device and assign default thresholds and alerts to each.
+For example if a disk drive is more than 90% of capacity it will create an
+event message.  These messages will start displaying in nicely color-coded
+dashboards for now.  The next logical step is to setup email notifications by
+defining alert rules per user or group.  Alert rules allow you to filter the
+event messages and only receive the ones that are important to you such as
+only Production systems that throw Error messages.</p>
+
+<p>If you are in need of a monitoring solution, I highly recommend you give
+Zenoss a try.  It really is quite easy to setup and has a vibrant community
+behind it with a lot more advanced capabilities than I have discussed here.
+Also take a look at a ramp up video put together by JumpBox for Zenoss at
+<a href="http://vimeo.com/6408567">http://vimeo.com/6408567</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Remote Desktop Manager]]></title>
+    <link href="http://nanek.github.com/blog/2009/08/remote-desktop-manager/"/>
+    <updated>2009-08-10T20:56:16-04:00</updated>
+    <id>http://nanek.github.com/blog/2009/08/remote-desktop-manager</id>
+    <content type="html"><![CDATA[<p>If you find yourself managing a number of Windows servers take a look at
+<a href="http://www.code4ward.net/main/RoyalTS/Download.aspx">Royal TS 1.5.1</a>.</p>
+
+<p>Royal TS allows you to organize your connections to multiple servers over RDP.
+There are other programs that do this, but this one allows you to easily
+categorize, sort and search the list.  It saves all of your settings in a XML,
+which you can easily share with other co-workers as they join the project.</p>
+
+<p><a href="/images/RoyalTS.png"><img src="/images/RoyalTS_thumb.png" alt="RoyalTS" /></a></p>
+
+<p>The latest version is shareware, however I use the freeware 1.5.1 version and
+it works great!</p>
+]]></content>
+  </entry>
+  
+</feed>

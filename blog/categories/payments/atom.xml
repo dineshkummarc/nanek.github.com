@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: payments | Tech Opener]]></title>
+  <link href="http://nanek.github.com/blog/categories/payments/atom.xml" rel="self"/>
+  <link href="http://nanek.github.com/"/>
+  <updated>2012-01-06T21:52:22-05:00</updated>
+  <id>http://nanek.github.com/</id>
+  <author>
+    <name><![CDATA[Kenan Shifflett]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using the Dwolla API with node.js]]></title>
+    <link href="http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js/"/>
+    <updated>2011-12-02T10:55:52-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js</id>
+    <content type="html"><![CDATA[<p><a href="http://dwolla.com">Dwolla.com</a> is a new payment network. It makes it easy to
+transfer money without the transaction fees charged by credit cards. Each
+transaction over $10 is 25 cents, and those under $10 are free. I think this
+has a lot of potential so I have been exploring ways to utilize their API.</p>
+
+<p>To start I wrote a node.js module for their API that you can find at
+<a href="https://github.com/nanek/node-dwolla">https://github.com/nanek/node-dwolla</a>.
+In addition, I added Dwolla OAuth2 to the
+<a href="https://github.com/bnoguchi/everyauth">everyauth</a> module to make it easy to
+authenticate.</p>
+
+<p>They have some interesting API methods that are not common to payment APIs.
+You can view a user's account transactions and balances (with permission of
+course). They also integrate and expose a user's contacts from various social
+networks, such as Facebook and Twitter, to make it easy to send/request money
+from friends.</p>
+
+<p>Let me know if you build something cool or if you have a great idea that could
+utilize their API.</p>
+]]></content>
+  </entry>
+  
+</feed>

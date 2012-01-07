@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: development | Tech Opener]]></title>
+  <link href="http://nanek.github.com/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://nanek.github.com/"/>
+  <updated>2012-01-06T21:52:22-05:00</updated>
+  <id>http://nanek.github.com/</id>
+  <author>
+    <name><![CDATA[Kenan Shifflett]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using the Dwolla API with node.js]]></title>
+    <link href="http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js/"/>
+    <updated>2011-12-02T10:55:52-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js</id>
+    <content type="html"><![CDATA[<p><a href="http://dwolla.com">Dwolla.com</a> is a new payment network. It makes it easy to
+transfer money without the transaction fees charged by credit cards. Each
+transaction over $10 is 25 cents, and those under $10 are free. I think this
+has a lot of potential so I have been exploring ways to utilize their API.</p>
+
+<p>To start I wrote a node.js module for their API that you can find at
+<a href="https://github.com/nanek/node-dwolla">https://github.com/nanek/node-dwolla</a>.
+In addition, I added Dwolla OAuth2 to the
+<a href="https://github.com/bnoguchi/everyauth">everyauth</a> module to make it easy to
+authenticate.</p>
+
+<p>They have some interesting API methods that are not common to payment APIs.
+You can view a user's account transactions and balances (with permission of
+course). They also integrate and expose a user's contacts from various social
+networks, such as Facebook and Twitter, to make it easy to send/request money
+from friends.</p>
+
+<p>Let me know if you build something cool or if you have a great idea that could
+utilize their API.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Translation API for node.js]]></title>
+    <link href="http://nanek.github.com/blog/2011/11/translation-api-for-node-js/"/>
+    <updated>2011-11-17T14:24:20-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/11/translation-api-for-node-js</id>
+    <content type="html"><![CDATA[<p>Microsoft provides a Translator API that allows you to translate text from one
+language into another. It provides up to 1000 transactions/month for free.
+Google also provides a translation API, however has recently removed their
+free tier. One the projects I am working on needed the ability to translate
+text, so I wrote a node.js module for the Microsoft Translator API, which you
+can find more about at
+<a href="https://github.com/nanek/mstranslator">github.com/nanek/mstranslator</a>.</p>
+
+<p>The API itself provides a good set of languages to choose from and it also can
+provide the audio of the word being spoken.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Full Text Search with Dropbox]]></title>
+    <link href="http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox/"/>
+    <updated>2011-04-25T18:58:20-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox</id>
+    <content type="html"><![CDATA[<p><a href="http://db.tt/BKfYgZE">Dropbox</a> + <a href="http://lucene.apache.org/solr/">Solr</a> =
+full text indexing and search for files in your Dropbox. I wrote an app in
+<a href="http://www.sinatrarb.com/">Sinatra</a> that authenticates to Dropbox, downloads
+your files, and indexes them in Solr. It also provides a simple interface for
+searching that includes hit highlighting and some basic facet support.</p>
+
+<p><a href="/images/searchdropbox.png"><img src="/images/searchdropbox.png" alt="Search Dropbox" /></a></p>
+
+<p>I've posted the project on <a href="https://github.com/nanek/searchdropbox">github</a>,
+so feel free to download and try it. For anyone interested in this as a hosted
+service instead of as a download and install, let me know.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Team Drive on Google App Engine]]></title>
+    <link href="http://nanek.github.com/blog/2011/04/team-drive-on-google-app-engine/"/>
+    <updated>2011-04-11T16:11:46-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/04/team-drive-on-google-app-engine</id>
+    <content type="html"><![CDATA[<p>Last year, I created <a href="http://funddrive.appspot.com">Team Drive</a> on <a href="http://code.google.com/appengine/">Google App
+Engine</a>.  I wanted to learn about Google
+App Engine (GAE) which is a hosting platform for python/java based
+applications.</p>
+
+<p>Team Drive is based on a site that Fabien built years ago to record donations
+of items for a charity food drive.  Users from an organization are split into
+separate teams, and then compete to see who can collect the most food items.
+By adding this friendly team competition to a normal food drive, you can
+increase the participation and results of the drive.</p>
+
+<p>Building on GAE is quite different than traditional single server application
+deployments.  Everything in App Engine forces you to think about how to scale
+your application.  By placing constraints, such as a thirty second processing
+limit per request, it forces you to think about approaching problems
+differently than if you were writing this to run on a single server.</p>
+
+<p>App Engine supports two types of authentication methods, Google Accounts and
+OpenID.  If you want to leverage their session management you need to use one
+of these.  For an site aimed at organizations, I didn't want users to have to
+create a google account or OpenID.  To work around this I implemented an
+OpenID provider in the application.  Administrators could upload a list of
+email addresses and a Team Drive OpenID would be created for each of these
+users.  The users themselves don't need to know that they are using OpenID, as
+I only ask for their username and password.</p>
+
+<p>Another example is for counting the number of items contributed by a person,
+team, organization or type.  In a relational database you might just sum these
+up on demand.  However using the Google datastore you generally store counts
+on the object itself and increment this count on each update.  App Engine has
+also provided an implementation of map/reduce that makes it easy to perform
+operations such as sums or counts over large collections.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A location based URL redirector]]></title>
+    <link href="http://nanek.github.com/blog/2011/03/a-location-based-url-redirector/"/>
+    <updated>2011-03-31T11:33:40-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/03/a-location-based-url-redirector</id>
+    <content type="html"><![CDATA[<p>I wanted to create something to enter into <a href="http://quovadevchallenge.com/">Quova Dev
+Challenge</a>, so I created <a href="http://nearbylink.appspot.com">Nearby
+Link</a>.  Basically its a service that creates
+links that redirect users to different sites based on their current location.</p>
+
+<p>If that doesn't make sense, then just visit
+<a href="http://goo.gl/ydDZP">http://goo.gl/ydDZP</a> and you will be taken to the
+contact form for the governor of your state. If a user in another state
+clicked the same link, they would visit the appropriate contact form for their
+state.  Get it?  One link, yet it can redirect to different sites based on the
+location of the user.</p>
+
+<p>Or instead, let's say your trying to get people to eat at your restaurant by
+using social media like twitter or facebook, and you want them quickly find a
+store location in their area.  Quizno's for example, could just link to to
+<a href="http://goo.gl/dHYhc">http://goo.gl/dHYhc</a> and it will automatically show
+locations around the user where they are at.</p>
+
+<p>Thoughts?  Other uses?</p>
+]]></content>
+  </entry>
+  
+</feed>

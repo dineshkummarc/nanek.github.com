@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: enterprise | Tech Opener]]></title>
+  <link href="http://nanek.github.com/blog/categories/enterprise/atom.xml" rel="self"/>
+  <link href="http://nanek.github.com/"/>
+  <updated>2012-01-06T21:52:22-05:00</updated>
+  <id>http://nanek.github.com/</id>
+  <author>
+    <name><![CDATA[Kenan Shifflett]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Company Lightning Talks]]></title>
+    <link href="http://nanek.github.com/blog/2009/10/company-lightning-talks/"/>
+    <updated>2009-10-15T18:27:49-04:00</updated>
+    <id>http://nanek.github.com/blog/2009/10/company-lightning-talks</id>
+    <content type="html"><![CDATA[<p>I'm always searching for ways learn more.  I know a lot of smart people
+working on interesting projects, however it is often difficult to keep up with
+what others are working on.  This past June I organized <a href="http://en.wikipedia.org/wiki/Lightning_Talk">lightning
+talk</a> presentations for my
+company.   We had ten 5-minute presentations on various topics that we video
+taped and posted to our internal SharePoint site.  I think it worked out
+great.  Five minutes is just enough time to make a point or introduce a topic
+to an audience without boring them if they are not interested.  If they are
+interested they can always followup afterwards to find out more.  Lightning
+talks typically take place at conferences and give an opportunity for
+attendees to present to the larger audience, however I see no reason not to
+use the format inside your company as well.</p>
+
+<p>I'm looking forward to our next series of lightning talk presentations
+tomorrow. I will be presenting on Cloud Computing in the Government.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Remote Desktop Manager]]></title>
+    <link href="http://nanek.github.com/blog/2009/08/remote-desktop-manager/"/>
+    <updated>2009-08-10T20:56:16-04:00</updated>
+    <id>http://nanek.github.com/blog/2009/08/remote-desktop-manager</id>
+    <content type="html"><![CDATA[<p>If you find yourself managing a number of Windows servers take a look at
+<a href="http://www.code4ward.net/main/RoyalTS/Download.aspx">Royal TS 1.5.1</a>.</p>
+
+<p>Royal TS allows you to organize your connections to multiple servers over RDP.
+There are other programs that do this, but this one allows you to easily
+categorize, sort and search the list.  It saves all of your settings in a XML,
+which you can easily share with other co-workers as they join the project.</p>
+
+<p><a href="/images/RoyalTS.png"><img src="/images/RoyalTS_thumb.png" alt="RoyalTS" /></a></p>
+
+<p>The latest version is shareware, however I use the freeware 1.5.1 version and
+it works great!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Downloading Enterprise Software]]></title>
+    <link href="http://nanek.github.com/blog/2009/03/downloading-enterprise-software/"/>
+    <updated>2009-03-23T18:40:44-04:00</updated>
+    <id>http://nanek.github.com/blog/2009/03/downloading-enterprise-software</id>
+    <content type="html"><![CDATA[<p>Why is finding the correct software installer or documentation so difficult?
+If you are a enterprise software vendor (particularly IBM, EMC, Oracle) and
+want to increase customer satisfaction, please fix this!  Granted these
+companies are in this situation because they have acquired a number of other
+companies.  However this problem is simple to fix and would save many from
+wasting time finding installers or writing documentation on how to reach the
+documentation.  My personal recommendations below:</p>
+
+<ul>
+<li>Product Name  (Pick one name and stick with it across the board)</li>
+<li>Product Category (I usual find these to be very unhelpful and arbitrary.  Most times, I would rather see a long list of products or product suites.  If I have to click through three or more categories just to see a list of downloads then you are doing it wrong.  I can scan through 100s of product names in a single list, much quicker than I can click through each category.  Most of the times the categories are wrong anyhow.)</li>
+<li>Product Version (I only want to see the most recent version, but leave a link to access previous versions right next to it)</li>
+<li>Product Platform / Type (If your going to list this, then be consistent and accurate.)</li>
+<li>Product Documentation (This is best included in the installation download and available completely separately in an HTML online version.  However don't list the installer and the documentation as separate zips in the same list, this just clutters the whole thing.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

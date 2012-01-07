@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: virtualization | Tech Opener]]></title>
+  <link href="http://nanek.github.com/blog/categories/virtualization/atom.xml" rel="self"/>
+  <link href="http://nanek.github.com/"/>
+  <updated>2012-01-06T21:52:22-05:00</updated>
+  <id>http://nanek.github.com/</id>
+  <author>
+    <name><![CDATA[Kenan Shifflett]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Keeping VMWare images small]]></title>
+    <link href="http://nanek.github.com/blog/2008/10/keeping-vmware-images-small/"/>
+    <updated>2008-10-21T22:42:18-04:00</updated>
+    <id>http://nanek.github.com/blog/2008/10/keeping-vmware-images-small</id>
+    <content type="html"><![CDATA[<p>Virtualization technology is used everywhere these days.  It really has
+changed the way I work and provides a number of advantages over traditional
+tools and methods.  I've created a library of VMWare instances with different
+products installed on each to avoid bogging down my laptop.</p>
+
+<p>One difficulty I often run into is the size of vmware images can quickly
+become quite large.  Which in turn makes transfering them across the network
+to coworkers slow and painful.  Below are some tips on how I keep vmware
+instances down to a reasonable size.</p>
+
+<ul>
+<li>Remove service pack uninstallers c:\windows\$NT*  (leave $hf_mig$)</li>
+<li>Move c:\i386 to a common share not on the VM</li>
+<li>Remove files inside C:\Windows\SoftwareDistribution\Download</li>
+<li>Remove any other unneeded files, such as installers, log files (I use <a href="http://windirstat.info/">WinDirStat</a> to find large files)</li>
+<li>Empty the recycle bin</li>
+<li>From disk cleanup, advanced turn off the pagefile.sys and restart the vm</li>
+<li>Shrink the image using the vmware tools (you will need free space on your host machine the size of the image)</li>
+</ul>
+
+
+<p><img alt='VMWare Tools Shink Menu' src='http://nanek.github.com/images/vmware_tools_shrink.png' width='300px' height='261px'/></p>
+
+<p>If you have any other tips on how to manage vmware images, please post them in
+the comments!</p>
+]]></content>
+  </entry>
+  
+</feed>

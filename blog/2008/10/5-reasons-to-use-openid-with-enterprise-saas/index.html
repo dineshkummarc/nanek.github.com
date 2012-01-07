@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>5 reasons to use OpenID with Enterprise SaaS - Tech Opener</title>
+  <meta name="author" content="Kenan Shifflett">
+
+  
+  <meta name="description" content="As employees use more and more applications outside corporate network
+boundaries traditional identity systems start to break down.  Example business &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://nanek.github.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Tech Opener" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-21779145-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Tech Opener</a></h1>
+  
+    <h2>Lets share more</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:nanek.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">5 Reasons to Use OpenID With Enterprise SaaS</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-10-27T20:42:38-04:00" pubdate data-updated="true">Oct 27<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>As employees use more and more applications outside corporate network
+boundaries traditional identity systems start to break down.  Example business
+applications that fit this description are <a href="http://www.google.com/a">Google
+Apps</a>, <a href="http://www.microsoft.com/online">Microsoft Online
+Services</a>, <a href="http://zoho.com">Zoho</a>,
+<a href="http://www.salesforce.com">Salesforce</a>, <a href="http://www.adp.com">ADP</a>,
+<a href="http://www.webex.com">WebEx</a>, <a href="http://www.quickarrow.com">QuickArrow</a> to name
+a few.  Luckily OpenID can step in and provide a great experience for IT
+administrators and end users.  <a href="http://openid.net">OpenID</a> is a web
+authentication protocol based on open standards.</p>
+
+<p>Currently end users have to create new accounts at each of the sites above,
+much like early days of the enterprise when you had to create a new account
+for each application until SSO solutions came along.  Creating new accounts is
+not only a pain for employees but perhaps even more so to IT administrators
+that need to manage these accounts.  Below are 5 reasons to create a corporate
+OpenID provider instead of having your users create new accounts:</p>
+
+<p><strong>Account creation and removal</strong> = Normally users have to create a new account at each site.  When a user leaves the organization they could potentially still have access as they created the account, unless you have a good process in place to deactivate accounts.  OpenID can be integrated with your existing user repository such as Active Directory or LDAP so that when accounts are deleted they can no longer be used.<br/>
+<strong>Authentication method</strong> = Since you control the OpenID provider, you can control the authentication method.  You can use different methods such as Username/Password, InfoCards, SSL Client Certificates or Tokens.<br/>
+<strong>Password Managment</strong> = When web applications outside your organization control the account, they might not have as robust password management features which places more responsibility on your employees.  When you control the authentication using OpenID, you can set your own password policies and there is only one password that the user needs to remember.<br/>
+<strong>Company branding and identity, naming conventions</strong> = OpenID uses a URL as a users identity, therefore you can include your company name, such as http://user.company.com.  This allows you to set a standard naming convention that is consistant throughout your organizations, much like your email addresses are.<br/>
+<strong>User experience</strong> = Users only have to remember one account.</p>
+
+<p>An example is Sun, they have setup a OpenID for their employees at
+https://openid.sun.com</p>
+
+<p>Please leave your thoughts in the comments!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">kenan</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-10-27T20:42:38-04:00" pubdate data-updated="true">Oct 27<span>th</span>, 2008</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/openid/'>openid</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://nanek.github.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas/" data-via="" data-counturl="http://nanek.github.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2008/10/keeping-vmware-images-small/" title="Previous Post: Keeping VMWare images small">&laquo; Keeping VMWare images small</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2008/10/dopplr-tracks-my-flights-and-my-carbon-footprint/" title="next Post: Dopplr tracks my flights and my carbon footprint">Dopplr tracks my flights and my carbon footprint &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/01/now-using-octopress/">Now using Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/12/using-the-dwolla-api-with-node-js/">Using the Dwolla API with node.js</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/11/translation-api-for-node-js/">Translation API for node.js</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/credit-cards-and-security/">Credit Cards and Security</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/book-recommendation-responsive-web-design/">Book recommendation: Responsive Web Design</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/nanek">@nanek</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'nanek',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/kenan.shifflett?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Kenan Shifflett -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'techopener';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://nanek.github.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas/';
+        var disqus_url = 'http://nanek.github.com/blog/2008/10/5-reasons-to-use-openid-with-enterprise-saas/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,16 +1,560 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Tech Opener]]></title>
   <link href="http://nanek.github.com/atom.xml" rel="self"/>
   <link href="http://nanek.github.com/"/>
-  <updated>2012-01-06T21:48:10-05:00</updated>
+  <updated>2012-01-06T21:52:22-05:00</updated>
   <id>http://nanek.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Kenan Shifflett]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Now using Octopress]]></title>
+    <link href="http://nanek.github.com/blog/2012/01/now-using-octopress/"/>
+    <updated>2012-01-06T16:18:00-05:00</updated>
+    <id>http://nanek.github.com/blog/2012/01/now-using-octopress</id>
+    <content type="html"><![CDATA[<p>Nothing like migrating to a new blogging platform to get you in the mood
+to write some new posts. Just switched from Wordpress to
+<a href="http://octopress.org">Octopress</a>.</p>
+
+<p>You can find migration instructions a number of places, but the process was pretty straightforward for me.</p>
+
+<ul>
+<li>Exported published posts from wordpress</li>
+<li>Updated xml export to include atom namespace that was missing</li>
+<li>Used <a href="https://github.com/thomasf/exitwp">exitwp</a> to convert the export
+into the markdown format. I did run into a <a href="https://github.com/thomasf/exitwp/issues/6">wrapping issue</a>.</li>
+<li>Enabled comments on old posts with the following find and replace</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'> perl -pi -e 's/layout: post/layout: post\ncomments: true/g' *.markdown</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Saved images to source/images and updated posts with proper links</li>
+<li>Deploy to github!</li>
+<li>Update feedburner RSS feed location</li>
+</ul>
+
+
+<p>Now I just need to find a spell checker plugin!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using the Dwolla API with node.js]]></title>
+    <link href="http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js/"/>
+    <updated>2011-12-02T10:55:52-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/12/using-the-dwolla-api-with-node-js</id>
+    <content type="html"><![CDATA[<p><a href="http://dwolla.com">Dwolla.com</a> is a new payment network. It makes it easy to
+transfer money without the transaction fees charged by credit cards. Each
+transaction over $10 is 25 cents, and those under $10 are free. I think this
+has a lot of potential so I have been exploring ways to utilize their API.</p>
+
+<p>To start I wrote a node.js module for their API that you can find at
+<a href="https://github.com/nanek/node-dwolla">https://github.com/nanek/node-dwolla</a>.
+In addition, I added Dwolla OAuth2 to the
+<a href="https://github.com/bnoguchi/everyauth">everyauth</a> module to make it easy to
+authenticate.</p>
+
+<p>They have some interesting API methods that are not common to payment APIs.
+You can view a user&#8217;s account transactions and balances (with permission of
+course). They also integrate and expose a user&#8217;s contacts from various social
+networks, such as Facebook and Twitter, to make it easy to send/request money
+from friends.</p>
+
+<p>Let me know if you build something cool or if you have a great idea that could
+utilize their API.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Translation API for node.js]]></title>
+    <link href="http://nanek.github.com/blog/2011/11/translation-api-for-node-js/"/>
+    <updated>2011-11-17T14:24:20-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/11/translation-api-for-node-js</id>
+    <content type="html"><![CDATA[<p>Microsoft provides a Translator API that allows you to translate text from one
+language into another. It provides up to 1000 transactions/month for free.
+Google also provides a translation API, however has recently removed their
+free tier. One the projects I am working on needed the ability to translate
+text, so I wrote a node.js module for the Microsoft Translator API, which you
+can find more about at
+<a href="https://github.com/nanek/mstranslator">github.com/nanek/mstranslator</a>.</p>
+
+<p>The API itself provides a good set of languages to choose from and it also can
+provide the audio of the word being spoken.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Credit Cards and Security]]></title>
+    <link href="http://nanek.github.com/blog/2011/07/credit-cards-and-security/"/>
+    <updated>2011-07-07T08:04:54-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/07/credit-cards-and-security</id>
+    <content type="html"><![CDATA[<p>I recently returned from a wonderful trip to Norway.  One tech thing that
+stood out was that everywhere you go there they have portable card readers
+that read cards with a chip or magnetic stripe.  Looking into it, the &#8220;chip&#8221;
+is <a href="http://en.wikipedia.org/wiki/EMV">EMV</a> technology adopted in Europe in
+2005 due to security concerns.  Every single place I tried to use my non-chip
+credit or debit card came with a puzzled look and the statement, &#8220;no chip?!&#8221;
+Being a tech geek I definitely felt out of date.  You could tell by the way
+they acted that they didn&#8217;t swipe cards very often, as everyone only uses the
+chip there.</p>
+
+<p>I remember when I applied for my first credit card, the American Express Blue
+card, which I still have.  It came with a USB card reader and a chip in the
+card to help secure online transactions.  I never used the card reader, but it
+was the main reason I got the card, and that was back in 1999.  Unfortunately
+that is not an EMV chip, so it doesn&#8217;t work in Europe.</p>
+
+<p>Swipe cards, just like plain text account numbers lack any sort of security.
+This is widely known, however we currently have a chicken/egg problem of not
+many cards with chips and not many readers for these chips in the US.
+<a href="https://squareup.com/">Square</a> and other companies are making card readers
+more accessible, however is still based upon fundamentally insecure swipe card
+technology. Some say mobile payments, such as
+<a href="http://en.wikipedia.org/wiki/Near_field_communication">NFC</a> will provide a
+more secure technology and are more practical to deploy in the US over EMV
+technology.</p>
+
+<p>Frankly, I don&#8217;t care too much what technology is used, however I would prefer
+the option to choose a more secure credit/debit card.  Seems like there
+shouldn&#8217;t be an issue supporting both.  Recently I just go a new ING Direct
+MasterCard, that has no embossed numbers on the card.  In fact, all of the
+account information such as my name and account number and expiration are
+printed on the back.  It certainly looks cool, albeit almost fake, and it
+won&#8217;t leave my CC number imprinted in my wallet, however im not sure it makes
+it my account any more secure.  I guess they decided that no one makes card
+imprints anymore.</p>
+
+<p>Im looking forward to see some innovation in banking over the next year.
+Seems like the market is poised for a shake-up.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Book recommendation: Responsive Web Design]]></title>
+    <link href="http://nanek.github.com/blog/2011/07/book-recommendation-responsive-web-design/"/>
+    <updated>2011-07-06T10:56:30-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/07/book-recommendation-responsive-web-design</id>
+    <content type="html"><![CDATA[<p>I just finished <a href="http://www.abookapart.com/products%0A/responsive-web-design">Responsive Web Design</a> by Ethan Marcotte. It is a quick and entertaining
+read. It brings together some CSS techniques you may already know and some you
+probably don&#8217;t to give clear solution to an ever increasing problem of dealing
+with varying screen sizes. I look forward to using these strategies in my next
+project and I highly recommend the book. Let me know if you want to borrow it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to become a Sole Proprietor in Arlington County]]></title>
+    <link href="http://nanek.github.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county/"/>
+    <updated>2011-07-05T12:33:36-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/07/how-to-become-a-sole-proprietor-in-arlington-county</id>
+    <content type="html"><![CDATA[<p>When starting out on your own, there a number of things you need to do based
+on where you live.  Even with all of the resources on the internet, it can
+still be a little confusing to determine what is needed as it varies based on
+a number of factors.  As such, if you are starting a business, then be sure to
+research what is required for your situation.</p>
+
+<p>Here are the basic steps for becoming a sole proprietor in Arlington County,
+Virginia.</p>
+
+<ol>
+<li>County - Business License ($30/fee, plus tax at end of year) from the Commissioner of Revenue</li>
+<li>County - Home occupation permit (free) from the Commissioner of Revenue</li>
+<li>File State Taxes at end of year</li>
+<li><p>File Federal Taxes at end of year and complete tax estimates quarterly
+Other steps, highly recommended:</p></li>
+<li><p>New bank account to separate business income/expenses from personal accounts</p></li>
+<li>Business Cards - <a href="http://about.me">about.me</a> provides free <a href="http://moo.com">moo</a> cards</li>
+<li>Health Insurance - <a href="http://www.ehealthinsurance.com/">eHealthInsurance.com</a></li>
+<li>Networking - <a href="http://meetup.com">meetup.com</a>
+After this, you can look into creating a more complex business type, such as
+an LLC and/or trademarking a business name and getting an
+<a href="http://www.irs.gov/businesses/small/article/0,,id=98350,00.html">EIN</a> if
+needed.  However if you are just looking to get started, it could be a simple
+as that.  Let me know if you think im missing something.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Full Text Search with Dropbox]]></title>
+    <link href="http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox/"/>
+    <updated>2011-04-25T18:58:20-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/04/full-text-search-with-dropbox</id>
+    <content type="html"><![CDATA[<p><a href="http://db.tt/BKfYgZE">Dropbox</a> + <a href="http://lucene.apache.org/solr/">Solr</a> =
+full text indexing and search for files in your Dropbox. I wrote an app in
+<a href="http://www.sinatrarb.com/">Sinatra</a> that authenticates to Dropbox, downloads
+your files, and indexes them in Solr. It also provides a simple interface for
+searching that includes hit highlighting and some basic facet support.</p>
+
+<p><a href="http://nanek.github.com/images/searchdropbox.png"><img src="http://nanek.github.com/images/searchdropbox.png" alt="Search Dropbox" /></a></p>
+
+<p>I&#8217;ve posted the project on <a href="https://github.com/nanek/searchdropbox">github</a>,
+so feel free to download and try it. For anyone interested in this as a hosted
+service instead of as a download and install, let me know.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Analyzing data from DonorsChoose.org]]></title>
+    <link href="http://nanek.github.com/blog/2011/04/analyzing-data-from-donorschoose-org/"/>
+    <updated>2011-04-14T12:28:38-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/04/analyzing-data-from-donorschoose-org</id>
+    <content type="html"><![CDATA[<p>DonorsChoose.org is running a <a href="http://www.donorschoose.org/hacking-%0Aeducation">contest</a> by opening up its data for analysis and use in innovative
+applications.  They have provided data dumps for project, search, donation and
+gift card data in large csv files.  There are a two free tools that I
+recommend to quickly review this data.</p>
+
+<p><a href="http://code.google.com/p/google-refine/">Google Refine</a> allows you to filter
+the data and identify data quality issues.  It also makes it very easy to
+manipulate and transform the data any way you like.  Bulk replacements and
+column transforms are two of its strengths.  Another cool feature is the
+ability to template exports into different formats such as JSON.  Heres some
+tips I found with working with the Donors Choose data.  First increase the
+<a href="http://code.google.com/p/google-%0Arefine/wiki/FaqAllocateMoreMemory">memory settings</a>.  Second, update the <a href="http://code.google.com/p/google-refine/issues/detail?id=31#c6">facet limit
+setting</a> to
+something higher.  The <a href="http://code.google.com/p/google-refine/">screencasts</a>
+for Google Refine do a great job in demonstrating its use.</p>
+
+<p><a href="http://www.google.com/fusiontables/">Google Fusion Tables</a> is good for
+visualizing data in various ways like charts, maps, or timelines.  This tool
+works better with data sets that are already cleaned up.  It takes some time
+to load the data and process it, so it is best served for working with just a
+slice of data that you would like to present for a specific purpose.  It does
+have a 250mb limit per user and a 100mb limit per csv file.</p>
+
+<p>So go ahead and start analyzing this data.  It is for a good cause and the
+lucky contest winner will get to meet Steven Colbert!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Team Drive on Google App Engine]]></title>
+    <link href="http://nanek.github.com/blog/2011/04/team-drive-on-google-app-engine/"/>
+    <updated>2011-04-11T16:11:46-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/04/team-drive-on-google-app-engine</id>
+    <content type="html"><![CDATA[<p>Last year, I created <a href="http://funddrive.appspot.com">Team Drive</a> on <a href="http://code.google.com/appengine/">Google App
+Engine</a>.  I wanted to learn about Google
+App Engine (GAE) which is a hosting platform for python/java based
+applications.</p>
+
+<p>Team Drive is based on a site that Fabien built years ago to record donations
+of items for a charity food drive.  Users from an organization are split into
+separate teams, and then compete to see who can collect the most food items.
+By adding this friendly team competition to a normal food drive, you can
+increase the participation and results of the drive.</p>
+
+<p>Building on GAE is quite different than traditional single server application
+deployments.  Everything in App Engine forces you to think about how to scale
+your application.  By placing constraints, such as a thirty second processing
+limit per request, it forces you to think about approaching problems
+differently than if you were writing this to run on a single server.</p>
+
+<p>App Engine supports two types of authentication methods, Google Accounts and
+OpenID.  If you want to leverage their session management you need to use one
+of these.  For an site aimed at organizations, I didn&#8217;t want users to have to
+create a google account or OpenID.  To work around this I implemented an
+OpenID provider in the application.  Administrators could upload a list of
+email addresses and a Team Drive OpenID would be created for each of these
+users.  The users themselves don&#8217;t need to know that they are using OpenID, as
+I only ask for their username and password.</p>
+
+<p>Another example is for counting the number of items contributed by a person,
+team, organization or type.  In a relational database you might just sum these
+up on demand.  However using the Google datastore you generally store counts
+on the object itself and increment this count on each update.  App Engine has
+also provided an implementation of map/reduce that makes it easy to perform
+operations such as sums or counts over large collections.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[No timezones / no daylight savings time]]></title>
+    <link href="http://nanek.github.com/blog/2011/04/no-timezones-no-daylight-savings-time/"/>
+    <updated>2011-04-01T13:49:30-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/04/no-timezones-no-daylight-savings-time</id>
+    <content type="html"><![CDATA[<p>Timezones and daylight savings time never really made sense to me.  How could
+something as fundamental, precise and constant as time be dependent upon my
+location or a local government?</p>
+
+<p><img src='http://nanek.github.com/images/SwatchBeat1.jpg' width='263px' height='300px' /></p>
+
+<p>Turns out, <a href="http://en.wikipedia.org/wiki/Swatch_Internet_Time">Swatch</a> tried
+to tackle this already.  <a href="http://ebeats.org/">eBeats</a> is trying something
+similar.  Until then, there is always <a href="http://everytimezone.com/">Every Time Zone</a>.</p>
+
+<p>&amp;nbsp_place_holder;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A location based URL redirector]]></title>
+    <link href="http://nanek.github.com/blog/2011/03/a-location-based-url-redirector/"/>
+    <updated>2011-03-31T11:33:40-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/03/a-location-based-url-redirector</id>
+    <content type="html"><![CDATA[<p>I wanted to create something to enter into <a href="http://quovadevchallenge.com/">Quova Dev
+Challenge</a>, so I created <a href="http://nearbylink.appspot.com">Nearby
+Link</a>.  Basically its a service that creates
+links that redirect users to different sites based on their current location.</p>
+
+<p>If that doesn&#8217;t make sense, then just visit
+<a href="http://goo.gl/ydDZP">http://goo.gl/ydDZP</a> and you will be taken to the
+contact form for the governor of your state. If a user in another state
+clicked the same link, they would visit the appropriate contact form for their
+state.  Get it?  One link, yet it can redirect to different sites based on the
+location of the user.</p>
+
+<p>Or instead, let&#8217;s say your trying to get people to eat at your restaurant by
+using social media like twitter or facebook, and you want them quickly find a
+store location in their area.  Quizno&#8217;s for example, could just link to to
+<a href="http://goo.gl/dHYhc">http://goo.gl/dHYhc</a> and it will automatically show
+locations around the user where they are at.</p>
+
+<p>Thoughts?  Other uses?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Location history reporting]]></title>
+    <link href="http://nanek.github.com/blog/2011/03/location-history-reporting/"/>
+    <updated>2011-03-07T11:20:54-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/03/location-history-reporting</id>
+    <content type="html"><![CDATA[<p>There are lots of mobile location sharing products and many new ones everyday.
+Most of them appear to be centered around location check-ins and sharing with
+friends.  While this is neat, it seems like only a small slice of the use
+cases in which location data is useful.</p>
+
+<p>For example, lets say that I take I-66 W to work everyday, starting around
+9am.  If this pattern is established, and there is an accident on I-66 W at
+8:50am, it would be great to know that before I start my commute.  The
+location and time of this event is important in that if it was another road or
+at another time, then I really don&#8217;t care to be informed regarding this event.
+Unless the event was at 9:30am and im running late.  In order to provide
+context aware alerts, you need to have sufficient data in order to have a good
+level of confidence that a user is likely to take an action at a certain time
+and place.</p>
+
+<p>Certainly there are existing ways to be informed regarding traffic situations.
+However, it seems to me that we have not taken automation regarding similar
+use cases yet to a usable level.  Smart phones that are aways on, full of
+sensors and generally always with us, empower us to easily track, record,
+analyze and alert with minimal or no input.  I&#8217;ve started to explore how to
+implement this and I hope to discuss it more over the next few days.</p>
+
+<p>&amp;nbsp_place_holder;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Online password security]]></title>
+    <link href="http://nanek.github.com/blog/2011/03/online-password-security/"/>
+    <updated>2011-03-03T16:22:42-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/03/online-password-security</id>
+    <content type="html"><![CDATA[<p>I often find myself forgetting my passwords and usernames to various sites.
+So recently, I decided to get serious about password management.  I use
+<a href="http://www.keepassx.org/">KeyPassX</a> (or KeyPass if you are using windows) as
+a secure way to encrypt and record the urls, usernames and passwords to sites.</p>
+
+<p>I also signed up for <a href="http://www.google.com/suppor%0At/accounts/bin/static.py?hl=en&amp;page=guide.cs&amp;guide=1056283&amp;topic=1056284">Google 2 step verification</a>.
+This is useful for many reasons, but one in particular is that your gmail
+account contains a lot of information that can be used to access your other
+accounts.  Once you get past the initial setup, everything works seamlessly as
+it did before.  Enterprises have traditionally paid big bucks to implement
+this type of 2 factor authentication, typically requiring issuing RSA tokens
+or similar to all employees.  It&#8217;s great to see a more integrated solution
+being provided directly to consumers.</p>
+
+<p><a href="https://www.dropbox.com">Dropbox</a> has nothing to do with your password
+security, however it is a great tool to sync files between your computer, web,
+and devices.  So one way to always be sure that you don&#8217;t lose your KeyPass
+database or your Google verification backup codes is to place them in a
+private dropbox folder that you can reach from everywhere.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Smartphone with unlimited everything for $25/month]]></title>
+    <link href="http://nanek.github.com/blog/2011/03/smartphone-with-unlimited-everything/"/>
+    <updated>2011-03-02T10:37:12-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/03/smartphone-with-unlimited-everything</id>
+    <content type="html"><![CDATA[<p>Virgin Mobile offers a great $25/month plan for unlimited data, text and web
+with 300 talk minutes with no contract to sign.  This works great for me, as I
+generally just have short phone conversations.  However there are of course
+times when I might get stuck on the phone for an hour or so.  Below are a few
+extra steps I took to help get around the 300 minute limit without spending
+any more.</p>
+
+<p>First, I ported my number to <a href="http://voice.google.com">Google Voice</a>(GV).  GV
+has a lot of features, but the key feature is being able to indicate where to
+forward calls to when your phone number is dialed.  For example, when my GV
+number is called, it is then forwarded to my mobile phone number.</p>
+
+<p>Secondly, I setup GV to forward to Google Talk within Gmail.  Im often in
+front of a computer, so this way I can easily make and receive phone calls for
+free without using my cell minutes or using a different phone number.</p>
+
+<p>Lastly, to take it the extra mile, what about a VOIP call when you are on your
+cell phone in order to avoid using your minutes?  Might as well use that
+unlimited data plan.  Turns out that there are a few extra steps here, however
+it is relatively easy to setup.  I use a
+<a href="http://www.google.com/gizmo5/">Gizmo5</a> SIP account for this and I won&#8217;t go
+into the details here, but there are
+<a href="http://iiordanov.blogspot.com/2009/07/sipdroid-gv-guava.html">plenty</a> of
+<a href="http://code.google.com/p/google-voice-sipsorcery-dialplans/w/list">posts</a> on
+the web describing how to set this up.  Keep in mind though that the call
+quality of this often does suffer based on the quality of the data connection.</p>
+
+<p>If you sign up for a <a href="http://www.virginmobileusa.com/">Virgin Mobile</a> account,
+feel free to use the Kickback Code IYFUMN7I for an extra 60 minutes of talk
+time.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redmine plugin for windows authentication]]></title>
+    <link href="http://nanek.github.com/blog/2010/05/redmine-plugin-for-windows-authentication/"/>
+    <updated>2010-05-02T19:36:16-04:00</updated>
+    <id>http://nanek.github.com/blog/2010/05/redmine-plugin-for-windows-authentication</id>
+    <content type="html"><![CDATA[<p>Redmine.org is an open source project management application. It is simple to
+setup and works great. It supports LDAP authentication out of the box. We
+recently setup Redmine for a project to run behind IIS using fastcgi and
+wanted to automatically login using windows authentication. We didn&#8217;t see a
+option for this, so I created a simple plugin that can be used to add this
+functionality.</p>
+
+<p>http://github.com/nanek/redmine_windowsauth</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iPad apps]]></title>
+    <link href="http://nanek.github.com/blog/2010/04/ipad-apps/"/>
+    <updated>2010-04-02T08:35:36-04:00</updated>
+    <id>http://nanek.github.com/blog/2010/04/ipad-apps</id>
+    <content type="html"><![CDATA[<p>Prepared for tomorrow by downloading some iPad applications before the device
+has even been released.  Apple = Hype machine.  iPad will win for the same
+reasons the iPhone did.  For anyone not paying attention, it is the
+applications.</p>
+
+<p><a href="http://nanek.github.com/images/iPadApps.png"><img src="http://nanek.github.com/images/iPadApps.png" alt="iPad Apps" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CloudCamp DC 2010]]></title>
+    <link href="http://nanek.github.com/blog/2010/03/cloudcamp-dc-2010/"/>
+    <updated>2010-03-25T22:58:21-04:00</updated>
+    <id>http://nanek.github.com/blog/2010/03/cloudcamp-dc-2010</id>
+    <content type="html"><![CDATA[<p>Last Tuesday, I attended <a href="http://www.cloudcamp.org/dc">CloudCamp</a> in DC.  I&#8217;ve
+been meaning to go to an event like this for sometime and I was finally able
+to make it.  In particular my main takeaway from this event was how much
+better an unconference format is over a traditional conference.</p>
+
+<p>This CloudCamp was ran by <a href="http://twitter.com/davenielsen">Dave Nielsen</a>.
+There were over 200 people at my count, with standing room only at the
+beginning of the event.  I had my concerns with how effective the event would
+be based on its format with such a diverse and large audience.  However it was
+quite successful.  The audience members varied widely, from cloud vendors and
+consultants to government employees with no knowledge of the cloud and to
+those with existing or future cloud projects.</p>
+
+<p>The event started with lightning talks, followed by a panel from the audience
+with questions from the crowd, followed by two audience lead break out
+sessions, ending with a wrap-up over drinks.</p>
+
+<p>The best part about the event was that it was able to live up to the
+definition of an unconference.  Instead of going to a typical conference and
+hearing long presentations from just a few people, we were all able to
+participate, share experiences and learn from each other.  I look forward to
+attending the next CloudCamp and other unconference events.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Foursquare on Windows Mobile]]></title>
+    <link href="http://nanek.github.com/blog/2009/12/foursquare-on-windows-mobile/"/>
+    <updated>2009-12-22T21:47:50-05:00</updated>
+    <id>http://nanek.github.com/blog/2009/12/foursquare-on-windows-mobile</id>
+    <content type="html"><![CDATA[<p><a href="http://foursquare.com">Foursquare </a>does not have a windows mobile version of
+their application, so I thought it would be a great opportunity to try and
+build an app.</p>
+
+<p>Things that are working fairly well:</p>
+
+<ul>
+<li>Foursquare API access.</li>
+<li>JSON.NET is used to parse the JSON responses.</li>
+<li>sqlite is used for caching http responses.</li>
+<li>OAuth is used for authentication to foursquare.</li>
+<li><p>GPS lookup.
+Things that don&#8217;t work and have proved difficult to implement:</p></li>
+<li><p>Responsiveness.  At times the app stops responding and overall feels too slow for normal use.</p></li>
+<li>Cell ID lookup.  This is important as GPS often does not work indoors.  It appears access to this API may be protected on most phones.</li>
+<li><p>Good looking user interface.  Plus dealing with different phone resolutions, orientations, and sizes makes it a little more complicated.
+Things that would be interesting to implement but require a solid base
+application:</p></li>
+<li><p>Map integration</p></li>
+<li>Integration with other API&#8217;s such as Yelp
+You can find the source at
+<a href="http://foursquare.codeplex.com">http://foursquare.codeplex.com</a> along with a
+CAB for installation on your phone if you want to try it out.  Look under the
+planned download section.  It works ok on my HTC Touch Pro.  If you are
+interested in contributing to this effort, let me know.  I&#8217;m debating spending
+more time on making this work better or building a HTML5 based mobile web
+application.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Life Inc. call to action]]></title>
+    <link href="http://nanek.github.com/blog/2009/10/life-inc-call-to-action/"/>
+    <updated>2009-10-20T09:07:21-04:00</updated>
+    <id>http://nanek.github.com/blog/2009/10/life-inc-call-to-action</id>
+    <content type="html"><![CDATA[<p>I recently completed the book, &#8221;<a href="http://rushkoff.com/books/life-incorporated/life-inc-distributors">Life Inc.</a> How the world became a corporation and how to take it back,&#8221; by <a href="http://rushkoff.com/">Douglas Rushkoff</a>.</p>
+
+<p><img alt='RUSHKOFF_LifeIncCOVER' src='http://nanek.github.com/images/RUSHKOFF_LifeIncCOVER.jpg' width='197px' height='300px' /></p>
+
+<p>The book tells the compelling history of how corporations have defined and
+controlled the world since their inception.  It might make you rethink some
+basic assumptions we have about how society has evolved the way that it has.
+One example used in the book is the concept of having a large suburban home
+while working in the city, being constructed by car companies to create a
+market and the need for cars.  He ends the book with a call to action,
+specifically mentioning creating local currencies and using Community
+Supported Agriculture.  I&#8217;ve considered trying a
+<a href="http://www.localharvest.org/csa/">CSA</a> that would deliver to Arlington, but I
+don&#8217;t really cook that much.  He also mentions <a href="http://kiva.org">Kiva.org</a>
+which <a href="http://techopener.com/blog/2009/06/kiva-now-allows-loans-to-people-in-the-us/">I use and enjoy</a>.</p>
+
+<p>Do you use a CSA?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[5 Great Microsoft .NET Developer Blogs]]></title>
+    <link href="http://nanek.github.com/blog/2009/10/5-great-microsoft-net-developer-blogs/"/>
+    <updated>2009-10-19T08:42:32-04:00</updated>
+    <id>http://nanek.github.com/blog/2009/10/5-great-microsoft-net-developer-blogs</id>
+    <content type="html"><![CDATA[<p>Scott Hanselman <a href="http://www.hanselman.com/">http://www.hanselman.com/</a> Dan
+Wahlin <a href="http://weblogs.asp.net/dwahlin/">http://weblogs.asp.net/dwahlin/</a> The
+Morning Brew <a href="http://blog.cwa.me.uk/">http://blog.cwa.me.uk/</a> Jon Galloway
+<a href="http://weblogs.asp.net/jgalloway/">http://weblogs.asp.net/jgalloway/</a> Scott
+Gu <a href="http://weblogs.asp.net/scottgu/">http://weblogs.asp.net/scottgu/</a></p>
+
+<p>I&#8217;m sure I missed a bunch.  What do you recommend?</p>
+]]></content>
+  </entry>
   
 </feed>

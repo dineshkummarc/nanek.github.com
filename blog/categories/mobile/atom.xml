@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: mobile | Tech Opener]]></title>
+  <link href="http://nanek.github.com/blog/categories/mobile/atom.xml" rel="self"/>
+  <link href="http://nanek.github.com/"/>
+  <updated>2012-01-06T21:52:22-05:00</updated>
+  <id>http://nanek.github.com/</id>
+  <author>
+    <name><![CDATA[Kenan Shifflett]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Credit Cards and Security]]></title>
+    <link href="http://nanek.github.com/blog/2011/07/credit-cards-and-security/"/>
+    <updated>2011-07-07T08:04:54-04:00</updated>
+    <id>http://nanek.github.com/blog/2011/07/credit-cards-and-security</id>
+    <content type="html"><![CDATA[<p>I recently returned from a wonderful trip to Norway.  One tech thing that
+stood out was that everywhere you go there they have portable card readers
+that read cards with a chip or magnetic stripe.  Looking into it, the "chip"
+is <a href="http://en.wikipedia.org/wiki/EMV">EMV</a> technology adopted in Europe in
+2005 due to security concerns.  Every single place I tried to use my non-chip
+credit or debit card came with a puzzled look and the statement, "no chip?!"
+Being a tech geek I definitely felt out of date.  You could tell by the way
+they acted that they didn't swipe cards very often, as everyone only uses the
+chip there.</p>
+
+<p>I remember when I applied for my first credit card, the American Express Blue
+card, which I still have.  It came with a USB card reader and a chip in the
+card to help secure online transactions.  I never used the card reader, but it
+was the main reason I got the card, and that was back in 1999.  Unfortunately
+that is not an EMV chip, so it doesn't work in Europe.</p>
+
+<p>Swipe cards, just like plain text account numbers lack any sort of security.
+This is widely known, however we currently have a chicken/egg problem of not
+many cards with chips and not many readers for these chips in the US.
+<a href="https://squareup.com/">Square</a> and other companies are making card readers
+more accessible, however is still based upon fundamentally insecure swipe card
+technology. Some say mobile payments, such as
+<a href="http://en.wikipedia.org/wiki/Near_field_communication">NFC</a> will provide a
+more secure technology and are more practical to deploy in the US over EMV
+technology.</p>
+
+<p>Frankly, I don't care too much what technology is used, however I would prefer
+the option to choose a more secure credit/debit card.  Seems like there
+shouldn't be an issue supporting both.  Recently I just go a new ING Direct
+MasterCard, that has no embossed numbers on the card.  In fact, all of the
+account information such as my name and account number and expiration are
+printed on the back.  It certainly looks cool, albeit almost fake, and it
+won't leave my CC number imprinted in my wallet, however im not sure it makes
+it my account any more secure.  I guess they decided that no one makes card
+imprints anymore.</p>
+
+<p>Im looking forward to see some innovation in banking over the next year.
+Seems like the market is poised for a shake-up.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Location history reporting]]></title>
+    <link href="http://nanek.github.com/blog/2011/03/location-history-reporting/"/>
+    <updated>2011-03-07T11:20:54-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/03/location-history-reporting</id>
+    <content type="html"><![CDATA[<p>There are lots of mobile location sharing products and many new ones everyday.
+Most of them appear to be centered around location check-ins and sharing with
+friends.  While this is neat, it seems like only a small slice of the use
+cases in which location data is useful.</p>
+
+<p>For example, lets say that I take I-66 W to work everyday, starting around
+9am.  If this pattern is established, and there is an accident on I-66 W at
+8:50am, it would be great to know that before I start my commute.  The
+location and time of this event is important in that if it was another road or
+at another time, then I really don't care to be informed regarding this event.
+Unless the event was at 9:30am and im running late.  In order to provide
+context aware alerts, you need to have sufficient data in order to have a good
+level of confidence that a user is likely to take an action at a certain time
+and place.</p>
+
+<p>Certainly there are existing ways to be informed regarding traffic situations.
+However, it seems to me that we have not taken automation regarding similar
+use cases yet to a usable level.  Smart phones that are aways on, full of
+sensors and generally always with us, empower us to easily track, record,
+analyze and alert with minimal or no input.  I've started to explore how to
+implement this and I hope to discuss it more over the next few days.</p>
+
+<p>&amp;nbsp_place_holder;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Smartphone with unlimited everything for $25/month]]></title>
+    <link href="http://nanek.github.com/blog/2011/03/smartphone-with-unlimited-everything/"/>
+    <updated>2011-03-02T10:37:12-05:00</updated>
+    <id>http://nanek.github.com/blog/2011/03/smartphone-with-unlimited-everything</id>
+    <content type="html"><![CDATA[<p>Virgin Mobile offers a great $25/month plan for unlimited data, text and web
+with 300 talk minutes with no contract to sign.  This works great for me, as I
+generally just have short phone conversations.  However there are of course
+times when I might get stuck on the phone for an hour or so.  Below are a few
+extra steps I took to help get around the 300 minute limit without spending
+any more.</p>
+
+<p>First, I ported my number to <a href="http://voice.google.com">Google Voice</a>(GV).  GV
+has a lot of features, but the key feature is being able to indicate where to
+forward calls to when your phone number is dialed.  For example, when my GV
+number is called, it is then forwarded to my mobile phone number.</p>
+
+<p>Secondly, I setup GV to forward to Google Talk within Gmail.  Im often in
+front of a computer, so this way I can easily make and receive phone calls for
+free without using my cell minutes or using a different phone number.</p>
+
+<p>Lastly, to take it the extra mile, what about a VOIP call when you are on your
+cell phone in order to avoid using your minutes?  Might as well use that
+unlimited data plan.  Turns out that there are a few extra steps here, however
+it is relatively easy to setup.  I use a
+<a href="http://www.google.com/gizmo5/">Gizmo5</a> SIP account for this and I won't go
+into the details here, but there are
+<a href="http://iiordanov.blogspot.com/2009/07/sipdroid-gv-guava.html">plenty</a> of
+<a href="http://code.google.com/p/google-voice-sipsorcery-dialplans/w/list">posts</a> on
+the web describing how to set this up.  Keep in mind though that the call
+quality of this often does suffer based on the quality of the data connection.</p>
+
+<p>If you sign up for a <a href="http://www.virginmobileusa.com/">Virgin Mobile</a> account,
+feel free to use the Kickback Code IYFUMN7I for an extra 60 minutes of talk
+time.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iPad apps]]></title>
+    <link href="http://nanek.github.com/blog/2010/04/ipad-apps/"/>
+    <updated>2010-04-02T08:35:36-04:00</updated>
+    <id>http://nanek.github.com/blog/2010/04/ipad-apps</id>
+    <content type="html"><![CDATA[<p>Prepared for tomorrow by downloading some iPad applications before the device
+has even been released.  Apple = Hype machine.  iPad will win for the same
+reasons the iPhone did.  For anyone not paying attention, it is the
+applications.</p>
+
+<p><a href="/images/iPadApps.png"><img src="/images/iPadApps.png" alt="iPad Apps" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Foursquare on Windows Mobile]]></title>
+    <link href="http://nanek.github.com/blog/2009/12/foursquare-on-windows-mobile/"/>
+    <updated>2009-12-22T21:47:50-05:00</updated>
+    <id>http://nanek.github.com/blog/2009/12/foursquare-on-windows-mobile</id>
+    <content type="html"><![CDATA[<p><a href="http://foursquare.com">Foursquare </a>does not have a windows mobile version of
+their application, so I thought it would be a great opportunity to try and
+build an app.</p>
+
+<p>Things that are working fairly well:</p>
+
+<ul>
+<li>Foursquare API access.</li>
+<li>JSON.NET is used to parse the JSON responses.</li>
+<li>sqlite is used for caching http responses.</li>
+<li>OAuth is used for authentication to foursquare.</li>
+<li><p>GPS lookup.
+Things that don't work and have proved difficult to implement:</p></li>
+<li><p>Responsiveness.  At times the app stops responding and overall feels too slow for normal use.</p></li>
+<li>Cell ID lookup.  This is important as GPS often does not work indoors.  It appears access to this API may be protected on most phones.</li>
+<li><p>Good looking user interface.  Plus dealing with different phone resolutions, orientations, and sizes makes it a little more complicated.
+Things that would be interesting to implement but require a solid base
+application:</p></li>
+<li><p>Map integration</p></li>
+<li>Integration with other API's such as Yelp
+You can find the source at
+<a href="http://foursquare.codeplex.com">http://foursquare.codeplex.com</a> along with a
+CAB for installation on your phone if you want to try it out.  Look under the
+planned download section.  It works ok on my HTC Touch Pro.  If you are
+interested in contributing to this effort, let me know.  I'm debating spending
+more time on making this work better or building a HTML5 based mobile web
+application.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
