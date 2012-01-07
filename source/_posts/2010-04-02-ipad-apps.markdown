@@ -1,0 +1,20 @@
+---
+author: kenan
+date: '2010-04-02 08:35:36'
+layout: post
+comments: true
+slug: ipad-apps
+status: publish
+title: iPad apps
+wordpress_id: '281'
+categories:
+- mobile
+---
+
+Prepared for tomorrow by downloading some iPad applications before the device
+has even been released.  Apple = Hype machine.  iPad will win for the same
+reasons the iPhone did.  For anyone not paying attention, it is the
+applications.
+
+[![iPad Apps](/images/iPadApps.png)](/images/iPadApps.png)
+

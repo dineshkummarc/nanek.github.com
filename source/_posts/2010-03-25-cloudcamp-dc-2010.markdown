@@ -1,0 +1,39 @@
+---
+author: kenan
+date: '2010-03-25 22:58:21'
+layout: post
+comments: true
+slug: cloudcamp-dc-2010
+status: publish
+title: CloudCamp DC 2010
+wordpress_id: '269'
+categories:
+- cloud computing
+tags:
+- cloudcamp
+- unconference
+---
+
+Last Tuesday, I attended [CloudCamp](http://www.cloudcamp.org/dc) in DC.  I've
+been meaning to go to an event like this for sometime and I was finally able
+to make it.  In particular my main takeaway from this event was how much
+better an unconference format is over a traditional conference.
+
+This CloudCamp was ran by [Dave Nielsen](http://twitter.com/davenielsen).
+There were over 200 people at my count, with standing room only at the
+beginning of the event.  I had my concerns with how effective the event would
+be based on its format with such a diverse and large audience.  However it was
+quite successful.  The audience members varied widely, from cloud vendors and
+consultants to government employees with no knowledge of the cloud and to
+those with existing or future cloud projects.
+
+The event started with lightning talks, followed by a panel from the audience
+with questions from the crowd, followed by two audience lead break out
+sessions, ending with a wrap-up over drinks.
+
+The best part about the event was that it was able to live up to the
+definition of an unconference.  Instead of going to a typical conference and
+hearing long presentations from just a few people, we were all able to
+participate, share experiences and learn from each other.  I look forward to
+attending the next CloudCamp and other unconference events.
+
