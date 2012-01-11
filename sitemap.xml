@@ -213,11 +213,31 @@
         <lastmod>2012-01-10T23:46:20-05:00</lastmod>
     </url>
     <url>
+        <loc>http://techopener.com/assets/</loc>
+        <lastmod>2012-01-10T23:51:10-05:00</lastmod>
+    </url>
+    <url>
         <loc>http://techopener.com/blog/archives/</loc>
         <lastmod>2012-01-06T21:58:23-05:00</lastmod>
     </url>
     <url>
+        <loc>http://techopener.com/blog/</loc>
+        <lastmod>2012-01-10T23:50:56-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://techopener.com/images/</loc>
+        <lastmod>2012-01-10T23:51:20-05:00</lastmod>
+    </url>
+    <url>
         <loc>http://techopener.com/</loc>
         <lastmod>2012-01-06T21:58:23-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://techopener.com/javascripts/</loc>
+        <lastmod>2012-01-10T23:51:28-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://techopener.com/stylesheets/</loc>
+        <lastmod>2012-01-10T23:51:37-05:00</lastmod>
     </url>
 </urlset>
